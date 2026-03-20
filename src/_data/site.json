@@ -1,0 +1,103 @@
+{
+  "meta": {
+    "title": "Nasc Consulting — Building the Links that Matter",
+    "description": "Nasc Consulting — Building the Links that Matter. Strategic consulting by Robert Crain in Sun Prairie, Wisconsin. Stakeholder relations, strategy, communications, and public affairs.",
+    "og_description": "I help organizations build stronger relationships, navigate complexity, and turn strategy into action."
+  },
+  "hero": {
+    "tagline": "BUILDING THE LINKS THAT MATTER",
+    "subtitle": "I help organizations build stronger relationships, navigate complexity, and turn strategy into action.",
+    "cta": "LET'S TALK"
+  },
+  "about": {
+    "label": "ABOUT",
+    "heading": "Robert Crain",
+    "headshot": "/assets/images/headshot.jpg",
+    "paragraphs": [
+      "Over the course of my career I've worn a lot of hats — leader, strategist, communicator, advocate. What ties it all together is a genuine curiosity about people and a draw toward work that doesn't fit neatly into one box.",
+      "I've helped organizations work through hard problems, build stronger teams, and find clarity when the path forward isn't obvious. Where I've consistently added the most value is at the intersection of organizations and the people they serve.",
+      "I'm at my best when I'm working alongside people who are trying to figure something out — bringing whatever is most useful to the table, whether that's experience, a fresh perspective, or just a steady presence in the middle of a complicated moment."
+    ],
+    "quote": "\"Nasc\" is the Irish word for \"link\" or \"connection\" — a nod to Irish heritage and a reflection of work that has always been about people and relationships."
+  },
+  "services": {
+    "label": "WHAT I DO",
+    "heading": "Services",
+    "items": [
+      {
+        "title": "Stakeholder & Community Relations",
+        "description": "Building trust, managing complex relationships, and helping organizations engage effectively with the communities they serve."
+      },
+      {
+        "title": "Strategy & Communications",
+        "description": "Developing clear messages, aligning teams, and turning strategic vision into action that resonates at every level."
+      },
+      {
+        "title": "Business & Economic Development",
+        "description": "Supporting growth, attracting investment, and navigating the intersection of business and community opportunity."
+      },
+      {
+        "title": "Public Affairs & Regulatory Navigation",
+        "description": "Managing public processes, working with government agencies, and communicating effectively with legislators and regulators."
+      }
+    ]
+  },
+  "clients": {
+    "label": "WHO I WORK WITH",
+    "heading": "Client Focus Areas",
+    "items": [
+      {
+        "title": "Private Sector",
+        "description": "Bringing strategic clarity and stakeholder expertise to complex business challenges and growth opportunities."
+      },
+      {
+        "title": "Nonprofits & Associations",
+        "description": "Helping mission-driven organizations communicate, engage, and grow their impact in the communities they serve."
+      },
+      {
+        "title": "Municipalities & Government",
+        "description": "Supporting public sector clients with community engagement, communications, and policy navigation."
+      },
+      {
+        "title": "Hospitality & Tourism",
+        "description": "Drawing on deep industry knowledge and civic leadership to help organizations build stronger community and stakeholder relationships."
+      }
+    ]
+  },
+  "community": {
+    "label": "COMMUNITY INVOLVEMENT",
+    "heading": "Rooted in Wisconsin",
+    "quote": "\"Community isn't just where I work — it's where I've always shown up.\"",
+    "items": [
+      "Destination Madison Board of Directors (Past Chair)",
+      "Madison Area Sports Commission Advisory Board",
+      "Destination Madison Foundation Board of Directors",
+      "Dane County Board – Alliant Energy Center Redevelopment Committee",
+      "Destination District Task Force Member",
+      "MASC Product Development Committee (Past Chair)",
+      "Wisconsin Public Utility Institute Board Member",
+      "Board Member – Wisconsin Innovation Awards",
+      "Forward Wisconsin Board Member",
+      "Board Member – Madison Edgewood High School Athletic Association",
+      "Member – Rock County 5.0 Advisory Committee",
+      "Volunteer Coach – Sun Prairie Little League / Youth Basketball"
+    ]
+  },
+  "contact": {
+    "label": "GET IN TOUCH",
+    "heading": "Let's Talk",
+    "headline": "If you're working through a challenge or just want to connect, I'd love to hear from you.",
+    "subtext": "No agenda required — just a good conversation about what you're working on and how I might be able to help.",
+    "phone": "(608) 444-8519",
+    "email": "rcrain@nascconsulting.com",
+    "location": "Sun Prairie, Wisconsin",
+    "form_id": "YOUR_FORM_ID",
+    "success_message": "Thank you for reaching out! I'll get back to you soon.",
+    "error_message": "Something went wrong. Please email me directly."
+  },
+  "footer": {
+    "tagline": "Building the links that matter",
+    "year": "2026",
+    "location": "Sun Prairie, Wisconsin"
+  }
+}
