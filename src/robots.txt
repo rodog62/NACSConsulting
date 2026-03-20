@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://nascconsulting.com/sitemap.xml

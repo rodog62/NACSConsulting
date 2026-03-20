@@ -1,0 +1,113 @@
+backend:
+  name: git-gateway
+  branch: claude/plan-consulting-website-TWiDd
+
+media_folder: "src/assets/images"
+public_folder: "/assets/images"
+
+collections:
+  - name: "settings"
+    label: "Site Content"
+    files:
+      - name: "content"
+        label: "Edit Website Content"
+        file: "src/_data/site.json"
+        fields:
+          # ── Meta / SEO ──
+          - label: "SEO & Meta"
+            name: "meta"
+            widget: "object"
+            collapsed: true
+            fields:
+              - { label: "Page Title", name: "title", widget: "string" }
+              - { label: "Meta Description", name: "description", widget: "text" }
+              - { label: "Social Share Description", name: "og_description", widget: "text" }
+
+          # ── Hero Section ──
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Tagline", name: "tagline", widget: "string" }
+              - { label: "Subtitle", name: "subtitle", widget: "text" }
+              - { label: "Button Text", name: "cta", widget: "string" }
+
+          # ── About Section ──
+          - label: "About Section"
+            name: "about"
+            widget: "object"
+            fields:
+              - { label: "Section Label", name: "label", widget: "string" }
+              - { label: "Heading (Your Name)", name: "heading", widget: "string" }
+              - { label: "Headshot Photo", name: "headshot", widget: "image" }
+              - label: "Bio Paragraphs"
+                name: "paragraphs"
+                widget: "list"
+                field: { label: "Paragraph", name: "paragraph", widget: "text" }
+              - { label: "Quote", name: "quote", widget: "text" }
+
+          # ── Services Section ──
+          - label: "Services Section"
+            name: "services"
+            widget: "object"
+            fields:
+              - { label: "Section Label", name: "label", widget: "string" }
+              - { label: "Heading", name: "heading", widget: "string" }
+              - label: "Service Items"
+                name: "items"
+                widget: "list"
+                fields:
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Description", name: "description", widget: "text" }
+
+          # ── Client Focus Areas ──
+          - label: "Client Focus Areas"
+            name: "clients"
+            widget: "object"
+            fields:
+              - { label: "Section Label", name: "label", widget: "string" }
+              - { label: "Heading", name: "heading", widget: "string" }
+              - label: "Client Areas"
+                name: "items"
+                widget: "list"
+                fields:
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Description", name: "description", widget: "text" }
+
+          # ── Community Involvement ──
+          - label: "Community Involvement"
+            name: "community"
+            widget: "object"
+            fields:
+              - { label: "Section Label", name: "label", widget: "string" }
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Quote", name: "quote", widget: "text" }
+              - label: "Board & Volunteer Positions"
+                name: "items"
+                widget: "list"
+                field: { label: "Position", name: "position", widget: "string" }
+
+          # ── Contact Section ──
+          - label: "Contact Section"
+            name: "contact"
+            widget: "object"
+            fields:
+              - { label: "Section Label", name: "label", widget: "string" }
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Headline", name: "headline", widget: "text" }
+              - { label: "Subtext", name: "subtext", widget: "text" }
+              - { label: "Phone Number", name: "phone", widget: "string" }
+              - { label: "Email Address", name: "email", widget: "string" }
+              - { label: "Location", name: "location", widget: "string" }
+              - { label: "Formspree Form ID", name: "form_id", widget: "string", hint: "Get this from formspree.io" }
+              - { label: "Success Message", name: "success_message", widget: "string" }
+              - { label: "Error Message", name: "error_message", widget: "string" }
+
+          # ── Footer ──
+          - label: "Footer"
+            name: "footer"
+            widget: "object"
+            fields:
+              - { label: "Tagline", name: "tagline", widget: "string" }
+              - { label: "Copyright Year", name: "year", widget: "string" }
+              - { label: "Location", name: "location", widget: "string" }
