@@ -79,4 +79,4 @@ When you're done making changes:
 
 ## Need Help?
 
-If something isn't working or you have questions, reach out to Rob and he can help you out.
+If something isn't working or you have questions, reach out to Rohan and he can help you out.
