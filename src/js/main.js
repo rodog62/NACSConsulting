@@ -48,13 +48,12 @@
     form.addEventListener('submit', function (e) {
       e.preventDefault();
 
-      var data = new FormData(form);
-      var action = form.getAttribute('action');
+      var data = new URLSearchParams(new FormData(form)).toString();
 
-      fetch(action, {
+      fetch('/', {
         method: 'POST',
         body: data,
-        headers: { 'Accept': 'application/json' }
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' }
       })
         .then(function (response) {
           if (response.ok) {
