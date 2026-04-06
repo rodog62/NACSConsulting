@@ -47,13 +47,39 @@ After logging in, you'll see a screen called **"Site Content"**.
 
 ---
 
+## Website Layout (top to bottom)
+
+Here's how the sections appear on the website so you know what you're editing:
+
+1. **Header** — Navigation bar at the top with links: About, Services, Community, Why Nasc, Contact
+2. **Hero** — The big opening section with the logo, "Nasc Consulting" title, tagline, subtitle, and "LET'S TALK" button
+3. **About** — Your headshot photo, bio paragraphs, and the quote about your experience
+4. **Services** — "WHAT WE DO" — Six cards describing your consulting services (Stakeholder & Community Relations, Strategic Communications, Business & Economic Development, Regulatory & Public Policy, Organizational Strategy & Alignment, Municipal & Government Services)
+5. **Client Focus Areas** — "WHO WE SERVE" — Four areas describing who you work with (Private Sector, Nonprofits & Associations, Municipalities & Local Government, State & Federal Agencies)
+6. **Community & Civic Leadership** — "Rooted in Wisconsin" — Your quote about community involvement, followed by six civic area cards (Business Development, Youth Athletics, Tourism & Hospitality, Community Relations, Education, Economic Development)
+7. **Why Nasc Consulting** — "Why Work With Me" — Four cards highlighting what sets you apart (Both Sides of the Table, Every Sector One Thread, Rooted in the Community, Direct Honest Practical)
+8. **Contact** — "Let's Talk" — Your phone, email, location, and the contact form
+9. **Footer** — Tagline, copyright, and location at the bottom
+
+---
+
 ## Step 4: Make Your Changes
 
 - Click into any text field and type your changes
 - To edit your **headshot photo**: click the image field, then upload a new photo
-- To **add a new service or list item**: click the "Add" button at the bottom of that list
+- To **add a new service, civic area, or other card**: click the "Add" button at the bottom of that list
 - To **remove an item**: click the "X" or delete button next to it
 - To **reorder items**: drag and drop them into the order you want
+
+### Editing Cards (Services, Civic Areas, Why Nasc, Client Focus)
+
+Several sections use **cards** — each card has a **Title** and a **Description**. To edit them:
+
+1. Expand the section (e.g., "Community & Civic Leadership")
+2. You'll see a list of cards — click on any card to expand it
+3. Edit the **Title** and/or **Description** fields
+4. To add a new card, click **"Add"** at the bottom of the list
+5. To remove a card, click the **"X"** button next to it
 
 ---
 
