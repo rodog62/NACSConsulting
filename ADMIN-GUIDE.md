@@ -38,7 +38,8 @@ After logging in, you'll see a screen called **"Site Content"**.
 | **About Section** | Your bio paragraphs, headshot photo, and personal quote |
 | **Services Section** | Your list of consulting services and their descriptions |
 | **Client Focus Areas** | The industries/areas you serve |
-| **Community Involvement** | Your board positions and volunteer work |
+| **Community & Civic Leadership** | Your civic area cards — each with a title and description |
+| **Why Nasc Consulting** | The "Why Work With Me" section — four cards highlighting what sets you apart |
 | **Contact Section** | Phone number, email, location, and contact form messages |
 | **Footer** | The tagline and info at the bottom of the page |
 
