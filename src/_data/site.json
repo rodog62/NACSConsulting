@@ -6,68 +6,75 @@
   },
   "hero": {
     "tagline": "BUILDING THE LINKS THAT MATTER",
-    "subtitle": "I help organizations build stronger relationships, navigate complexity, and turn strategy into action.",
+    "subtitle": "\"Nasc\" is the Irish word for link — or connection. Given my Irish roots, it was a natural fit. But it also captures something I’ve believed for 30 years, working across broadcast journalism, energy, and with the public and private sectors: the most important work happens within the connections between people.\n\nThat’s what Nasc Consulting is built to do. Help organizations and municipalities navigate complexity, build the right relationships, and find the connections with stakeholders to help ensure projects come to fruition.\n\n\"The single thread that binds all of my experience together is this: connections and relationships matter, perhaps more than anything else.\"\n",
     "cta": "LET'S TALK"
   },
   "about": {
-    "label": "ABOUT",
-    "heading": "Robert Crain",
+    "label": "ABOUT NASC CONSULTING",
+    "heading": "Rob Crain",
     "headshot": "/assets/images/headshot.jpg",
     "paragraphs": [
-      "Over the course of my career I've worn a lot of hats — leader, strategist, communicator, advocate. What ties it all together is a genuine curiosity about people and a draw toward work that doesn't fit neatly into one box.",
-      "I've helped organizations work through hard problems, build stronger teams, and find clarity when the path forward isn't obvious. Where I've consistently added the most value is at the intersection of organizations and the people they serve.",
-      "I'm at my best when I'm working alongside people who are trying to figure something out — bringing whatever is most useful to the table, whether that's experience, a fresh perspective, or just a steady presence in the middle of a complicated moment."
+      "I spent the first 15 years of my career in broadcast news — as a photojournalist, newscast producer, and eventually running television newsrooms. Those years taught me something I’ve carried into every room since: how to listen and discern, to find the story that actually matters, and how to tell it in a way people can hear on the first pass.",
+      "The next 15 years took me into the corporate world — spanning communications, customer experience, and economic development. But some of the most meaningful work happened outside the office: on boards, in community organizations, and in volunteer roles where real relationships are built between an organization and its community."
     ],
-    "quote": "\"Nasc\" is the Irish word for \"link\" or \"connection\" — a nod to Irish heritage and a reflection of work that has always been about people and relationships."
+    "quote": "“That combination — both sides of the table, for more than three decades — is what I bring to Nasc Consulting.”"
   },
   "services": {
-    "label": "WHAT I DO",
-    "heading": "Services",
+    "label": "WHAT WE DO",
+    "heading": "\"I help organizations navigate challenges that don’t have easy answers — the ones that require the right relationships, the right message, and someone who’s been in the room before.\"",
     "items": [
       {
         "title": "Stakeholder & Community Relations",
-        "description": "Building trust, managing complex relationships, and helping organizations engage effectively with the communities they serve."
+        "description": "Competing interests don’t always mean irreconcilable differences. Usually it means people can’t see or hear each other clearly. I help get everyone to the same table - and keep them there - by helping to identify shared interests."
       },
       {
-        "title": "Strategy & Communications",
-        "description": "Developing clear messages, aligning teams, and turning strategic vision into action that resonates at every level."
+        "title": "Strategic Communications",
+        "description": "Good messaging isn’t about controlling the narrative. It’s about shaping one that lands with the people who actually need to hear it. I’ve been in the newsroom asking the hard questions and in the room figuring out how to answer them. That changes how you approach the work."
       },
       {
         "title": "Business & Economic Development",
-        "description": "Supporting growth, attracting investment, and navigating the intersection of business and community opportunity."
+        "description": "Growth doesn’t happen in a vacuum. Not only do I help connect the right people, organizations, and opportunities to make things move, I also work to build-out the right structure to support that collaboration."
       },
       {
-        "title": "Public Affairs & Regulatory Navigation",
-        "description": "Managing public processes, working with government agencies, and communicating effectively with legislators and regulators."
+        "title": "Regulatory & Public Policy",
+        "description": "Regulatory processes are rarely just about the filing. They’re about who’s in the room, what they need to hear, and whether they trust you enough to hear it. I help you build that trust — before the process starts, not after."
+      },
+      {
+        "title": "Organizational Strategy & Alignment",
+        "description": "The best ideas don’t always come from the people with the biggest titles. I help organizations find the signal in the noise, build out strategy, and then coalesce around it."
+      },
+      {
+        "title": "Municipal & Government Services",
+        "description": "Municipalities face a challenge most organizations don’t: delivering for constituents while managing relationships that pull in every direction. I’ve been in those rooms. I help you figure out who needs to be at the table, what they need from you, and how to move things forward without leaving people behind."
       }
     ]
   },
   "clients": {
-    "label": "WHO I WORK WITH",
-    "heading": "Client Focus Areas",
+    "label": "WHO WE SERVE",
+    "heading": "\"The work looks different depending on the client — but the approach doesn’t change. Listen first. Find what actually matters. Build the connections that move things forward.\"",
     "items": [
       {
-        "title": "Private Sector",
-        "description": "Bringing strategic clarity and stakeholder expertise to complex business challenges and growth opportunities."
+        "title": "Private Sector Organizations",
+        "description": "Companies navigating external change - utilities, professional services firms, and organizations in between - that need someone who understands the both “business” side and the needs of the community it operates in."
       },
       {
         "title": "Nonprofits & Associations",
-        "description": "Helping mission-driven organizations communicate, engage, and grow their impact in the communities they serve."
+        "description": "Mission-driven organizations that need to strengthen community ties, sharpen their message, or build deeper relationships with the people who matter most to them."
       },
       {
-        "title": "Municipalities & Government",
-        "description": "Supporting public sector clients with community engagement, communications, and policy navigation."
+        "title": "Municipalities & Local Government",
+        "description": "Cities and counties managing stakeholder processes, public communications, and community development. I’ve been on both sides of these conversations for years."
       },
       {
-        "title": "Hospitality & Tourism",
-        "description": "Drawing on deep industry knowledge and civic leadership to help organizations build stronger community and stakeholder relationships."
+        "title": "State & Federal Agencies",
+        "description": "Government agencies that need support on policy navigation, interagency alignment, and communicating with the public in a way that builds trust rather than erodes it."
       }
     ]
   },
   "community": {
-    "label": "COMMUNITY INVOLVEMENT",
+    "label": "COMMUNITY AND CIVIC LEADERSHIP",
     "heading": "Rooted in Wisconsin",
-    "quote": "\"Community isn't just where I work — it's where I've always shown up.\"",
+    "quote": "\"I’ve always believed that the best way to understand a community is to be part of it. Over the years, that’s meant showing up — on boards, in committee rooms, and even on the sidelines of youth sports.\"",
     "items": [
       "Destination Madison Board of Directors (Past Chair)",
       "Madison Area Sports Commission Advisory Board",
@@ -84,16 +91,16 @@
     ]
   },
   "contact": {
-    "label": "GET IN TOUCH",
     "heading": "Let's Talk",
-    "headline": "If you're working through a challenge or just want to connect, I'd love to hear from you.",
-    "subtext": "No agenda required — just a good conversation about what you're working on and how I might be able to help.",
+    "success_message": "Thank you for reaching out! I'll get back to you soon.",
+    "subtext": "I’ve been in those rooms. I know what it takes.\n\nPlease reach out. I look forward to hearing from you.",
     "phone": "(608) 444-8519",
-    "email": "rcrain@nascconsulting.com",
+    "error_message": "Something went wrong. Please email me directly.",
+    "headline": "Whether you’re navigating a complex stakeholder challenge, trying to get competing interests to see each other clearly, or figuring out how to tell your story in a way that actually lands — I’d be glad to talk.\n\n\n",
+    "label": "GET IN TOUCH",
     "location": "Sun Prairie, Wisconsin",
     "form_id": "YOUR_FORM_ID",
-    "success_message": "Thank you for reaching out! I'll get back to you soon.",
-    "error_message": "Something went wrong. Please email me directly."
+    "email": "rcrain@nascconsulting.com"
   },
   "footer": {
     "tagline": "Building the links that matter",
