@@ -75,7 +75,54 @@
     "label": "COMMUNITY AND CIVIC LEADERSHIP",
     "heading": "Rooted in Wisconsin",
     "quote": "\"I’ve always believed that the best way to understand a community is to be part of it. Over the years, that’s meant showing up — on boards, in committee rooms, and even on the sidelines of youth sports.\"",
-    "items": []
+    "items": [
+      {
+        "title": "Business Development",
+        "description": "Board leadership across chambers of commerce, business associations, and economic partnerships — helping organizations build strategy and strengthen ties between the business community and the public sector."
+      },
+      {
+        "title": "Youth Athletics",
+        "description": "Years of coaching and volunteering in youth sports programs — building teamwork, mentoring young athletes, and supporting the organizations that make it possible."
+      },
+      {
+        "title": "Tourism & Hospitality",
+        "description": "Active involvement with Destination Madison, the Madison Area Sports Commission, and regional tourism efforts — connecting visitors, venues, and local stakeholders."
+      },
+      {
+        "title": "Community Relations",
+        "description": "Deep roots in community organizations and civic engagement — bringing people together around shared goals and strengthening the connections between organizations and the communities they serve."
+      },
+      {
+        "title": "Education",
+        "description": "Commitment to mentorship, school board involvement, and education-focused initiatives — supporting the systems and people that shape the next generation."
+      },
+      {
+        "title": "Economic Development",
+        "description": "Involvement with Forward Wisconsin, Rock County 5.0, and regional economic development efforts — helping attract investment, grow businesses, and create opportunity."
+      }
+    ]
+  },
+  "whyNasc": {
+    "label": "WHY NASC CONSULTING",
+    "heading": "Why Work With Me",
+    "items": [
+      {
+        "title": "Both Sides of the Table",
+        "description": "15 years in the newsroom asking the hard questions. 15 more in the boardroom figuring out how to answer them. That combination — journalist and executive, questioner and strategist — changes how you see problems and how you solve them."
+      },
+      {
+        "title": "Every Sector, One Thread",
+        "description": "Broadcast media, energy, economic development, public affairs, hospitality. The sectors change — but the thread that connects them doesn’t: relationships, trust, and the ability to get people aligned around what actually matters."
+      },
+      {
+        "title": "Rooted in the Community",
+        "description": "I don’t just consult in Wisconsin — I’ve coached here, served on boards here, built relationships here. That kind of local credibility doesn’t come from a website. It comes from showing up, year after year."
+      },
+      {
+        "title": "Direct. Honest. Practical.",
+        "description": "No jargon. No fluff. No 50-page decks that collect dust. I help you figure out what needs to happen, who needs to be involved, and how to move it forward — clearly and efficiently."
+      }
+    ]
   },
   "contact": {
     "heading": "Let's Talk",

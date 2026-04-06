@@ -74,18 +74,34 @@ collections:
                   - { label: "Title", name: "title", widget: "string" }
                   - { label: "Description", name: "description", widget: "text" }
 
-          # ── Community Involvement ──
-          - label: "Community Involvement"
+          # ── Community & Civic Leadership ──
+          - label: "Community & Civic Leadership"
             name: "community"
             widget: "object"
             fields:
               - { label: "Section Label", name: "label", widget: "string" }
               - { label: "Heading", name: "heading", widget: "string" }
               - { label: "Quote", name: "quote", widget: "text" }
-              - label: "Board & Volunteer Positions"
+              - label: "Civic Areas"
                 name: "items"
                 widget: "list"
-                field: { label: "Position", name: "position", widget: "string" }
+                fields:
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Description", name: "description", widget: "text" }
+
+          # ── Why Nasc Consulting ──
+          - label: "Why Nasc Consulting"
+            name: "whyNasc"
+            widget: "object"
+            fields:
+              - { label: "Section Label", name: "label", widget: "string" }
+              - { label: "Heading", name: "heading", widget: "string" }
+              - label: "Items"
+                name: "items"
+                widget: "list"
+                fields:
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Description", name: "description", widget: "text" }
 
           # ── Contact Section ──
           - label: "Contact Section"

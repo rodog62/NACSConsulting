@@ -131,7 +131,7 @@
     </div>
   </section>
 
-  <!-- Community Involvement -->
+  <!-- Community & Civic Leadership -->
   <section id="community" class="section section-alt">
     <div class="container content-narrow">
       <p class="section-label">{{ site.community.label }}</p>
@@ -139,11 +139,28 @@
       <blockquote class="accent-quote">
         {{ site.community.quote }}
       </blockquote>
-      <ul class="community-list">
-        {% for item in site.community.items %}
-        <li>{{ item }}</li>
-        {% endfor %}
-      </ul>
+
+      {% for item in site.community.items %}
+      <div class="card">
+        <h3 class="card-title">{{ item.title }}</h3>
+        <p class="card-text">{{ item.description }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+
+  <!-- Why Nasc Consulting -->
+  <section id="why-nasc" class="section">
+    <div class="container content-narrow">
+      <p class="section-label">{{ site.whyNasc.label }}</p>
+      <h2 class="section-heading">{{ site.whyNasc.heading }}</h2>
+
+      {% for item in site.whyNasc.items %}
+      <div class="card">
+        <h3 class="card-title">{{ item.title }}</h3>
+        <p class="card-text">{{ item.description }}</p>
+      </div>
+      {% endfor %}
     </div>
   </section>
 
