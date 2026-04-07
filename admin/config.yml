@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: claude/plan-consulting-website-TWiDd
+  branch: main
 
 media_folder: "src/assets/images"
 public_folder: "/assets/images"
