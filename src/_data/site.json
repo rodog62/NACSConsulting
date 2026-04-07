@@ -1,7 +1,6 @@
 {
   "contact": {
     "heading": "Let’s Talk",
-    "quote": "\"I’ve been in those rooms. I know what it takes to build the links that matter.\"",
     "success_message": "Thank you for reaching out! I’ll get back to you soon.",
     "subtext": "Whether you’re navigating a complex stakeholder challenge, trying to get competing interests to see and hear each other clearly, or figuring out how to tell your story in a way that actually lands — I’d be glad to talk.",
     "phone": "(608) 444-8519",
@@ -9,6 +8,7 @@
     "label": "GET IN TOUCH",
     "location": "Sun Prairie, Wisconsin",
     "form_id": "YOUR_FORM_ID",
+    "quote": "\"I’ve been in those rooms. I know what it takes to build the links that matter.\"",
     "email": "rcrain@nascconsulting.com"
   },
   "meta": {
@@ -23,7 +23,7 @@
     "items": [
       {
         "title": "Private Sector Organizations",
-        "description": "Companies navigating external change - utilities, professional services firms, and organizations in between - that need someone who understands the both “business” side and the needs of the community it operates in."
+        "description": "Companies navigating external change - utilities, professional services firms, and organizations in between - that need someone who understands both the “business” side and the needs of the community it operates in."
       },
       {
         "title": "Nonprofits & Associations",
