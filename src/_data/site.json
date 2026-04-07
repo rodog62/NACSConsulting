@@ -1,11 +1,11 @@
 {
   "contact": {
-    "heading": "Let's Talk",
-    "success_message": "Thank you for reaching out! I'll get back to you soon.",
-    "subtext": "Whether you’re navigating a complex stakeholder challenge, trying to get competing interests to see and hear each other clearly, or figuring out how to tell your story in a way that actually lands — I’d be glad to talk.\n\n\n\n",
+    "heading": "Let’s Talk",
+    "quote": "\"I’ve been in those rooms. I know what it takes to build the links that matter.\"",
+    "success_message": "Thank you for reaching out! I’ll get back to you soon.",
+    "subtext": "Whether you’re navigating a complex stakeholder challenge, trying to get competing interests to see and hear each other clearly, or figuring out how to tell your story in a way that actually lands — I’d be glad to talk.",
     "phone": "(608) 444-8519",
     "error_message": "Something went wrong. Please email me directly.",
-    "headline": "\"I’ve been in those rooms. I know what it takes to build the links that matter.\"\n\n\n",
     "label": "GET IN TOUCH",
     "location": "Sun Prairie, Wisconsin",
     "form_id": "YOUR_FORM_ID",
@@ -18,7 +18,8 @@
   },
   "clients": {
     "label": "WHO WE SERVE",
-    "heading": "\"The work looks different depending on the client — but the approach doesn’t change. Listen first. Find what actually matters. Build the connections that move things forward.\"",
+    "heading": "A Wide Table",
+    "quote": "\"The work looks different depending on the client — but the approach doesn’t change. Listen first. Find what actually matters. Build the connections that move things forward.\"",
     "items": [
       {
         "title": "Private Sector Organizations",
@@ -103,8 +104,10 @@
   },
   "hero": {
     "tagline": "BUILDING THE LINKS THAT MATTER",
-    "subtitle": "\"Nasc\" is the Irish word for link — or connection. Given my Irish roots, it was a natural fit. But it also captures something I’ve believed for 30 years, working across broadcast journalism, energy, and with the public and private sectors: the most important work happens within the connections between people.\n\nThat’s what Nasc Consulting is built to do. Help organizations and municipalities navigate complexity, build the right relationships, and find the connections with stakeholders to help ensure projects come to fruition.\n\n\"The single thread that binds all of my experience together is this: connections and relationships matter, perhaps more than anything else.\"\n",
-    "cta": "LET'S TALK"
+    "subtitle": "\"Nasc\" is the Irish word for link — or connection. Given my Irish roots, it was a natural fit. But it also captures something I’ve believed for 30 years, working across broadcast journalism, energy, and with the public and private sectors: the most important work happens within the connections between people.",
+    "subtitle2": "That’s what Nasc Consulting is built to do. Help organizations and municipalities navigate complexity, build the right relationships, and find the connections with stakeholders to help ensure projects come to fruition.",
+    "quote": "\"The single thread that binds all of my experience together is this: connections and relationships matter, perhaps more than anything else.\"",
+    "cta": "LET’S TALK"
   },
   "footer": {
     "tagline": "Building the links that matter",
@@ -113,7 +116,8 @@
   },
   "services": {
     "label": "WHAT WE DO",
-    "heading": "\"I help organizations navigate challenges that don’t have easy answers — the ones that require the right relationships, the right message, and someone who’s been in the room before.\"",
+    "heading": "Wide Lens. Clear Path.",
+    "quote": "\"I help organizations navigate challenges that don’t have easy answers — the ones that require the right relationships, the right message, and someone who’s been in the room before.\"",
     "items": [
       {
         "title": "Stakeholder & Community Relations",

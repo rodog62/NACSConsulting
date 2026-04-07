@@ -81,6 +81,10 @@
       <h1 class="hero-title">Nasc <span class="text-primary">Consulting</span></h1>
       <p class="hero-tagline">{{ site.hero.tagline }}</p>
       <p class="hero-subtitle">{{ site.hero.subtitle }}</p>
+      <p class="hero-subtitle">{{ site.hero.subtitle2 }}</p>
+      <blockquote class="accent-quote hero-quote">
+        {{ site.hero.quote }}
+      </blockquote>
       <a href="#contact" class="btn btn-outline">{{ site.hero.cta }}</a>
     </div>
   </section>
@@ -107,6 +111,9 @@
     <div class="container content-narrow">
       <p class="section-label">{{ site.services.label }}</p>
       <h2 class="section-heading">{{ site.services.heading }}</h2>
+      <blockquote class="accent-quote">
+        {{ site.services.quote }}
+      </blockquote>
 
       {% for service in site.services.items %}
       <div class="card">
@@ -122,6 +129,9 @@
     <div class="container content-narrow">
       <p class="section-label">{{ site.clients.label }}</p>
       <h2 class="section-heading">{{ site.clients.heading }}</h2>
+      <blockquote class="accent-quote">
+        {{ site.clients.quote }}
+      </blockquote>
 
       {% for client in site.clients.items %}
       <div class="client-area">
@@ -168,9 +178,11 @@
   <!-- Contact -->
   <section id="contact" class="section">
     <div class="container content-narrow">
+      <blockquote class="accent-quote">
+        {{ site.contact.quote }}
+      </blockquote>
       <p class="section-label">{{ site.contact.label }}</p>
       <h2 class="section-heading">{{ site.contact.heading }}</h2>
-      <p class="contact-headline">{{ site.contact.headline }}</p>
       <p class="contact-subtext">{{ site.contact.subtext }}</p>
 
       <div class="contact-info">

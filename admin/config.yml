@@ -29,7 +29,9 @@ collections:
             widget: "object"
             fields:
               - { label: "Tagline", name: "tagline", widget: "string" }
-              - { label: "Subtitle", name: "subtitle", widget: "text" }
+              - { label: "Subtitle (Paragraph 1)", name: "subtitle", widget: "text" }
+              - { label: "Subtitle (Paragraph 2)", name: "subtitle2", widget: "text" }
+              - { label: "Quote", name: "quote", widget: "text" }
               - { label: "Button Text", name: "cta", widget: "string" }
 
           # ── About Section ──
@@ -53,6 +55,7 @@ collections:
             fields:
               - { label: "Section Label", name: "label", widget: "string" }
               - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Quote", name: "quote", widget: "text" }
               - label: "Service Items"
                 name: "items"
                 widget: "list"
@@ -67,6 +70,7 @@ collections:
             fields:
               - { label: "Section Label", name: "label", widget: "string" }
               - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Quote", name: "quote", widget: "text" }
               - label: "Client Areas"
                 name: "items"
                 widget: "list"
@@ -110,7 +114,7 @@ collections:
             fields:
               - { label: "Section Label", name: "label", widget: "string" }
               - { label: "Heading", name: "heading", widget: "string" }
-              - { label: "Headline", name: "headline", widget: "text" }
+              - { label: "Quote", name: "quote", widget: "text" }
               - { label: "Subtext", name: "subtext", widget: "text" }
               - { label: "Phone Number", name: "phone", widget: "string" }
               - { label: "Email Address", name: "email", widget: "string" }

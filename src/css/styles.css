@@ -222,6 +222,12 @@ a:hover {
   margin-bottom: 2.5rem;
 }
 
+.hero-quote {
+  text-align: left;
+  max-width: 560px;
+  margin: 0 auto 2.5rem;
+}
+
 /* Buttons */
 .btn {
   display: inline-block;
