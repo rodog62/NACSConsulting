@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ site.meta.title }}</title>
+  <meta name="description" content="{{ site.meta.description }}">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="{{ site.meta.title }}">
+  <meta property="og:description" content="{{ site.meta.og_description }}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://nascconsulting.com/">
+  <meta property="og:image" content="https://nascconsulting.com/assets/images/logo.jpeg">
+
+  <!-- Favicon -->
+  <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Nasc Consulting",
+    "description": "Strategic consulting — stakeholder relations, strategy & communications, business development, and public affairs.",
+    "url": "https://nascconsulting.com",
+    "telephone": "+1-608-444-8519",
+    "email": "{{ site.contact.email }}",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Sun Prairie",
+      "addressRegion": "WI",
+      "addressCountry": "US"
+    },
+    "founder": {
+      "@type": "Person",
+      "name": "{{ site.about.heading }}"
+    }
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Skip to content -->
+  <a href="#hero" class="skip-link">Skip to content</a>
+
+  <!-- Header -->
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <a href="#hero" class="header-logo">
+        <img src="assets/images/logo.jpeg" alt="Nasc Consulting Celtic knot logo" width="36" height="36">
+        <span class="header-logo-text">Nasc <span class="text-primary">Consulting</span></span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+      <nav class="site-nav" id="site-nav">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#community" class="nav-link">Community</a>
+        <a href="#why-nasc" class="nav-link">Why Nasc</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="hero" class="hero">
+    <div class="container hero-inner">
+      <img src="assets/images/logo.jpeg" alt="Nasc Consulting logo" class="hero-logo" width="200" height="160">
+      <h1 class="hero-title">Nasc <span class="text-primary">Consulting</span></h1>
+      <p class="hero-tagline">{{ site.hero.tagline }}</p>
+      <p class="hero-subtitle">{{ site.hero.subtitle }}</p>
+      <p class="hero-subtitle">{{ site.hero.subtitle2 }}</p>
+      <blockquote class="accent-quote hero-quote">
+        {{ site.hero.quote }}
+      </blockquote>
+      <a href="#contact" class="btn btn-outline">{{ site.hero.cta }}</a>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <div class="container content-narrow">
+      <div class="about-photo-wrapper">
+        <img src="{{ site.about.headshot }}" alt="{{ site.about.heading }}, founder of Nasc Consulting" class="about-photo">
+      </div>
+      <p class="section-label">{{ site.about.label }}</p>
+      <h2 class="section-heading">{{ site.about.heading }}</h2>
+      {% for paragraph in site.about.paragraphs %}
+      <p>{{ paragraph }}</p>
+      {% endfor %}
+      <blockquote class="accent-quote">
+        {{ site.about.quote }}
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="section section-alt">
+    <div class="container content-narrow">
+      <p class="section-label">{{ site.services.label }}</p>
+      <h2 class="section-heading">{{ site.services.heading }}</h2>
+      <blockquote class="accent-quote">
+        {{ site.services.quote }}
+      </blockquote>
+
+      {% for service in site.services.items %}
+      <div class="card">
+        <h3 class="card-title">{{ service.title }}</h3>
+        <p class="card-text">{{ service.description }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+
+  <!-- Client Focus Areas -->
+  <section id="clients" class="section">
+    <div class="container content-narrow">
+      <p class="section-label">{{ site.clients.label }}</p>
+      <h2 class="section-heading">{{ site.clients.heading }}</h2>
+      <blockquote class="accent-quote">
+        {{ site.clients.quote }}
+      </blockquote>
+
+      {% for client in site.clients.items %}
+      <div class="client-area">
+        <h3 class="client-title">{{ client.title }}</h3>
+        <p>{{ client.description }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+
+  <!-- Community & Civic Leadership -->
+  <section id="community" class="section section-alt">
+    <div class="container content-narrow">
+      <p class="section-label">{{ site.community.label }}</p>
+      <h2 class="section-heading">{{ site.community.heading }}</h2>
+      <blockquote class="accent-quote">
+        {{ site.community.quote }}
+      </blockquote>
+
+      {% for item in site.community.items %}
+      <div class="card">
+        <h3 class="card-title">{{ item.title }}</h3>
+        <p class="card-text">{{ item.description }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+
+  <!-- Why Nasc Consulting -->
+  <section id="why-nasc" class="section">
+    <div class="container content-narrow">
+      <p class="section-label">{{ site.whyNasc.label }}</p>
+      <h2 class="section-heading">{{ site.whyNasc.heading }}</h2>
+
+      {% for item in site.whyNasc.items %}
+      <div class="card">
+        <h3 class="card-title">{{ item.title }}</h3>
+        <p class="card-text">{{ item.description }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <div class="container content-narrow">
+      <p class="section-label">{{ site.contact.label }}</p>
+      <h2 class="section-heading">{{ site.contact.heading }}</h2>
+      <blockquote class="accent-quote">
+        {{ site.contact.quote }}
+      </blockquote>
+      <p class="contact-subtext">{{ site.contact.subtext }}</p>
+
+      <div class="contact-info">
+        <div class="contact-item">
+          <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="20" height="20"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          <a href="tel:+1{{ site.contact.phone | replace("(", "") | replace(")", "") | replace(" ", "") | replace("-", "") }}">{{ site.contact.phone }}</a>
+        </div>
+        <div class="contact-item">
+          <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="20" height="20"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          <a href="mailto:{{ site.contact.email }}">{{ site.contact.email }}</a>
+        </div>
+        <div class="contact-item">
+          <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="20" height="20"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <span>{{ site.contact.location }}</span>
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <form id="contact-form" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="contact-form">
+        <input type="hidden" name="form-name" value="contact">
+        <p class="hidden" style="display:none"><label>Don't fill this out: <input name="bot-field"></label></p>
+
+        <div class="form-group">
+          <label for="name" class="form-label">YOUR NAME</label>
+          <input type="text" id="name" name="name" placeholder="{{ site.about.heading }}" required class="form-input">
+        </div>
+
+        <div class="form-group">
+          <label for="email" class="form-label">EMAIL ADDRESS</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required class="form-input">
+        </div>
+
+        <div class="form-group">
+          <label for="message" class="form-label">MESSAGE</label>
+          <textarea id="message" name="message" placeholder="Tell me what you're working on..." required class="form-input form-textarea"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-outline btn-submit">SEND MESSAGE</button>
+      </form>
+
+      <div id="form-success" class="form-message" hidden>
+        <p>{{ site.contact.success_message }}</p>
+      </div>
+      <div id="form-error" class="form-message form-message-error" hidden>
+        <p>{{ site.contact.error_message }} <a href="mailto:{{ site.contact.email }}">{{ site.contact.email }}</a>.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="footer-brand">Nasc <span class="text-primary">Consulting</span></p>
+      <p class="footer-tagline">{{ site.footer.tagline }}</p>
+      <p class="footer-meta">&copy; {{ site.footer.year }} Nasc Consulting</p>
+      <p class="footer-meta">{{ site.footer.location }}</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", function (user) {
+        if (!user) { return; }
+        window.netlifyIdentity.on("login", function () {
+          document.location.href = "/admin/";
+        });
+      });
+    }
+  </script>
+</body>
+</html>
