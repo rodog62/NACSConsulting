@@ -191,7 +191,7 @@ a:hover {
 }
 
 .hero-logo {
-  width: 200px;
+  width: 400px;
   height: auto;
   object-fit: contain;
   margin-bottom: 2rem;
@@ -585,8 +585,8 @@ a:hover {
   }
 
   .hero-logo {
-    width: 90px;
-    height: 90px;
+    width: 250px;
+    height: auto;
   }
 
   .section {
