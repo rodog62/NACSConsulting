@@ -517,6 +517,24 @@ a:hover {
   margin-bottom: 1.25rem;
 }
 
+.footer-social {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  color: var(--color-body);
+  background: var(--color-light-bg);
+  margin-bottom: 1.5rem;
+  transition: color 0.2s, background 0.2s;
+}
+
+.footer-social:hover {
+  color: var(--color-white);
+  background: var(--color-primary);
+}
+
 .footer-meta {
   font-size: 0.8rem;
   color: #9CA3AF;
