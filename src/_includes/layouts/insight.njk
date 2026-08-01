@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% set pageTitle = title + " — Nasc Consulting" %}
+  {% set pageDescription = description or summary %}
+  {% set pageOgDescription = description or summary %}
+  {% set pageImage = ("https://nascconsulting.com" + image) if image else "https://nascconsulting.com/assets/images/logo.jpeg" %}
+  {% include "head.njk" %}
+</head>
+<body>
+
+  <a href="#insight-main" class="skip-link">Skip to content</a>
+
+  {% include "header.njk" %}
+
+  <main id="insight-main" class="section insight-page">
+    <div class="container content-narrow">
+      <p class="insight-date">{{ date | readableDate }}{% if readTime %} &middot; {{ readTime }}{% endif %}</p>
+      <h1 class="section-heading insight-title">{{ title }}</h1>
+
+      {% if summary %}
+      <p class="insight-summary">{{ summary }}</p>
+      {% endif %}
+
+      {% if keyFindings and keyFindings.length %}
+      <div class="insight-findings">
+        <p class="insight-findings-label">Key findings</p>
+        <ul class="insight-findings-list">
+          {% for finding in keyFindings %}
+          <li>{{ finding }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endif %}
+
+      {% if pdf %}
+      <a href="{{ pdf }}" class="btn btn-outline insight-download" target="_blank" rel="noopener">DOWNLOAD THE PDF</a>
+      {% endif %}
+
+      {% if content %}
+      <div class="insight-body">
+        {{ content | safe }}
+      </div>
+      {% endif %}
+
+      <div class="insight-cta">
+        <p>{{ ctaText or "Have a project that touches on this?" }}</p>
+        <a href="{{ ctaLink or '/#contact' }}" class="btn btn-outline">LET'S TALK</a>
+      </div>
+
+      <p class="insight-back"><a href="/insights/">&larr; Back to Insights</a></p>
+    </div>
+  </main>
+
+  {% include "footer.njk" %}
+
+  <script src="/js/main.js"></script>
+</body>
+</html>

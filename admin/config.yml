@@ -6,6 +6,35 @@ media_folder: "src/assets/images"
 public_folder: "/assets/images"
 
 collections:
+  - name: "insights"
+    label: "Insights"
+    folder: "src/insights/entries"
+    create: true
+    slug: "{{slug}}"
+    format: "frontmatter"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false }
+      - label: "Type"
+        name: "type"
+        widget: "select"
+        options: ["white-paper", "announcement", "project-note"]
+        default: "project-note"
+        hint: "Not shown on the site yet — used later if the hub gets filters/sections."
+      - { label: "Summary (150–250 words, shown on hub + link previews)", name: "summary", widget: "text" }
+      - { label: "Meta Description Override (optional, defaults to Summary)", name: "description", widget: "text", required: false }
+      - { label: "Preview Image (for link previews — LinkedIn, etc.)", name: "image", widget: "image", required: false }
+      - { label: "PDF (for white papers)", name: "pdf", widget: "file", required: false, media_folder: "/src/assets/documents", public_folder: "/assets/documents" }
+      - { label: "Read Time / Page Count (e.g. \"8 min read\" or \"12 pages\")", name: "readTime", widget: "string", required: false }
+      - label: "Key Findings (white papers only — 3–4 bullet points)"
+        name: "keyFindings"
+        widget: "list"
+        required: false
+        field: { label: "Finding", name: "finding", widget: "string" }
+      - { label: "Bottom CTA Text (optional, defaults to a standard prompt)", name: "ctaText", widget: "string", required: false }
+      - { label: "Bottom CTA Link (optional, defaults to Contact)", name: "ctaLink", widget: "string", required: false }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+
   - name: "settings"
     label: "Site Content"
     files:

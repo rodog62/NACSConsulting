@@ -1,0 +1,22 @@
+---
+permalink: sitemap.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://nascconsulting.com/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://nascconsulting.com/insights/</loc>
+    <priority>0.8</priority>
+  </url>
+  {% for item in collections.insights %}
+  <url>
+    <loc>https://nascconsulting.com{{ item.url }}</loc>
+    <lastmod>{{ item.data.date | dateXml }}</lastmod>
+    <priority>0.6</priority>
+  </url>
+  {% endfor %}
+</urlset>

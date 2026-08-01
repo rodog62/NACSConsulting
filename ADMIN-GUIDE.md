@@ -51,15 +51,18 @@ After logging in, you'll see a screen called **"Site Content"**.
 
 Here's how the sections appear on the website so you know what you're editing:
 
-1. **Header** — Navigation bar at the top with links: About, Services, Community, Why Nasc, Contact
+1. **Header** — Navigation bar at the top with links: About, Services, Community, Why Nasc, Insights, Contact
 2. **Hero** — The big opening section with the logo, "Nasc Consulting" title, tagline, subtitle, and "LET'S TALK" button
 3. **About** — Your headshot photo, bio paragraphs, and the quote about your experience
 4. **Services** — "WHAT WE DO" — Six cards describing your consulting services (Stakeholder & Community Relations, Strategic Communications, Business & Economic Development, Regulatory & Public Policy, Organizational Strategy & Alignment, Municipal & Government Services)
 5. **Client Focus Areas** — "WHO WE SERVE" — Four areas describing who you work with (Private Sector, Nonprofits & Associations, Municipalities & Local Government, State & Federal Agencies)
 6. **Community & Civic Leadership** — "Rooted in Wisconsin" — Your quote about community involvement, followed by six civic area cards (Business Development, Youth Athletics, Tourism & Hospitality, Community Relations, Education, Economic Development)
 7. **Why Nasc Consulting** — "Why Work With Me" — Four cards highlighting what sets you apart (Both Sides of the Table, Every Sector One Thread, Rooted in the Community, Direct Honest Practical)
-8. **Contact** — "Let's Talk" — Your phone, email, location, and the contact form
-9. **Footer** — Tagline, copyright, and location at the bottom
+8. **Latest Thinking** — Shows your single most recent Insights item, with a link to the full Insights page (see below)
+9. **Contact** — "Let's Talk" — Your phone, email, location, and the contact form
+10. **Footer** — Tagline, copyright, and location at the bottom
+
+There's also a separate **Insights** page (`/insights/`) listing every published item, each with its own page — see "Managing Insights" below.
 
 ---
 
@@ -91,6 +94,35 @@ When you're done making changes:
 2. Select **"Publish now"**
 3. Wait about 30–60 seconds for the website to rebuild
 4. Refresh your website to see the changes live
+
+---
+
+## Managing Insights (White Papers, News, Project Notes)
+
+The site now has an **Insights** section — a page listing your published pieces newest-first, each on its own page with its own link, so you can post something on LinkedIn and the preview card shows the right title, description, and image.
+
+### Adding a New Insight
+
+1. Log in to the admin panel (same login as above)
+2. Click **"Insights"** in the left sidebar (separate from "Site Content")
+3. Click **"New Insights"**
+4. Fill in the fields:
+   - **Title** — shown on the hub page, the item's own page, and link previews
+   - **Date** — controls where it sits in the list (newest first)
+   - **Type** — White Paper, Announcement, or Project Note. This doesn't show on the site yet — it's there so the site can add filtered sections later without redoing anything
+   - **Summary** — 150–250 words. Shown on the hub listing, the item's own page, and used as the link-preview description if you don't set one below
+   - **Meta Description Override** — optional; only fill this in if you want the LinkedIn/Google preview text to differ from the Summary
+   - **Preview Image** — the image LinkedIn and other sites pull when someone shares the link. Leave blank to fall back to the Nasc Consulting logo
+   - **PDF** — for white papers, upload the PDF here. A "Download the PDF" button appears on the page automatically once this is set. Leave blank for announcements or project notes that don't have a document
+   - **Read Time / Page Count** — optional, e.g. "8 min read" or "12 pages"
+   - **Key Findings** — optional, 3–4 short bullet points (mainly for white papers)
+   - **Bottom CTA Text / Link** — optional; defaults to a standard "Let's Talk" prompt pointing at the Contact section
+   - **Body** — the full write-up for announcements or project notes. For a white paper landing page, you can leave this short (a sentence or two) since the Summary and Key Findings do most of the work
+5. Click **Publish → Publish now**
+
+### Removing or Editing an Insight
+
+Open it from the Insights list in the sidebar, make changes, and publish — same as any other content. Deleting one removes it from the hub list and its page goes away.
 
 ---
 

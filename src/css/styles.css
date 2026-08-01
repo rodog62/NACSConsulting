@@ -524,6 +524,188 @@ a:hover {
 }
 
 /* ============================================
+   Latest Insight (homepage)
+   ============================================ */
+
+.latest-card {
+  background: var(--color-white);
+  border-radius: 8px;
+  padding: 2.25rem;
+  border: 1px solid var(--color-border);
+  margin-bottom: 2rem;
+}
+
+.latest-date {
+  font-size: 0.8rem;
+  color: var(--color-body);
+  letter-spacing: 0.5px;
+  margin-bottom: 0.5rem;
+}
+
+.latest-title {
+  font-family: var(--font-serif);
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 0.75rem;
+  line-height: 1.4;
+}
+
+.latest-title a {
+  color: var(--color-dark);
+}
+
+.latest-title a:hover {
+  color: var(--color-primary);
+}
+
+.latest-summary {
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+}
+
+.latest-link {
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.latest-view-all {
+  display: inline-block;
+}
+
+/* ============================================
+   Insights Hub
+   ============================================ */
+
+.insights-intro {
+  margin-bottom: 2.5rem;
+}
+
+.insights-list {
+  list-style: none;
+}
+
+.insights-list-item {
+  padding: 2rem 0;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.insights-list-item:first-child {
+  padding-top: 0;
+}
+
+.insights-list-date {
+  font-size: 0.8rem;
+  color: var(--color-body);
+  letter-spacing: 0.5px;
+  margin-bottom: 0.5rem;
+}
+
+.insights-list-title {
+  font-family: var(--font-serif);
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 0.75rem;
+  line-height: 1.4;
+}
+
+.insights-list-title a {
+  color: var(--color-dark);
+}
+
+.insights-list-title a:hover {
+  color: var(--color-primary);
+}
+
+.insights-list-summary {
+  font-size: 0.95rem;
+  margin-bottom: 0.75rem;
+}
+
+.insights-list-link {
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+/* ============================================
+   Insight Page (landing / project note)
+   ============================================ */
+
+.insight-date {
+  font-size: 0.8rem;
+  color: var(--color-body);
+  letter-spacing: 0.5px;
+  margin-bottom: 0.75rem;
+}
+
+.insight-title {
+  margin-bottom: 1.5rem;
+}
+
+.insight-summary {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+.insight-findings {
+  background: var(--color-light-bg);
+  border-radius: 8px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+.insight-findings-label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: var(--color-primary);
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.insight-findings-list {
+  padding-left: 1.25rem;
+}
+
+.insight-findings-list li {
+  margin-bottom: 0.75rem;
+  color: var(--color-dark);
+}
+
+.insight-findings-list li:last-child {
+  margin-bottom: 0;
+}
+
+.insight-download {
+  margin-bottom: 2.5rem;
+}
+
+.insight-body {
+  margin-bottom: 2.5rem;
+}
+
+.insight-body p {
+  margin-bottom: 1.25rem;
+}
+
+.insight-cta {
+  background: var(--color-light-bg);
+  border-radius: 8px;
+  padding: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.insight-cta p {
+  color: var(--color-dark);
+  font-size: 1.05rem;
+  margin-bottom: 1.25rem;
+}
+
+.insight-back {
+  font-size: 0.9rem;
+}
+
+/* ============================================
    Responsive
    ============================================ */
 
@@ -604,5 +786,16 @@ a:hover {
   .about-photo {
     width: 200px;
     height: 200px;
+  }
+
+  .latest-card,
+  .insight-findings,
+  .insight-cta {
+    padding: 1.5rem;
+  }
+
+  .latest-title,
+  .insights-list-title {
+    font-size: 1.25rem;
   }
 }

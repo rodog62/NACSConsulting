@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% set pageTitle = "Insights — Nasc Consulting" %}
+  {% set pageDescription = "White papers, project notes, and updates from Nasc Consulting on stakeholder relations, strategy, and public affairs." %}
+  {% set pageOgDescription = pageDescription %}
+  {% set pageUrl = "https://nascconsulting.com/insights/" %}
+  {% set pageImage = "https://nascconsulting.com/assets/images/logo.jpeg" %}
+  {% include "head.njk" %}
+</head>
+<body>
+
+  <a href="#insights-main" class="skip-link">Skip to content</a>
+
+  {% include "header.njk" %}
+
+  <main id="insights-main" class="section insights-hub">
+    <div class="container content-narrow">
+      <p class="section-label">INSIGHTS</p>
+      <h1 class="section-heading">Insights</h1>
+      <p class="insights-intro">White papers, project notes, and updates — the thinking behind the work.</p>
+
+      {% if collections.insights and collections.insights.length %}
+      <ul class="insights-list">
+        {% for item in collections.insights %}
+        <li class="insights-list-item">
+          <p class="insights-list-date">{{ item.data.date | readableDate }}</p>
+          <h2 class="insights-list-title"><a href="{{ item.url }}">{{ item.data.title }}</a></h2>
+          <p class="insights-list-summary">{{ item.data.summary }}</p>
+          <a href="{{ item.url }}" class="insights-list-link">Read more &rarr;</a>
+        </li>
+        {% endfor %}
+      </ul>
+      {% else %}
+      <p>Nothing published yet — check back soon.</p>
+      {% endif %}
+    </div>
+  </main>
+
+  {% include "footer.njk" %}
+
+  <script src="/js/main.js"></script>
+</body>
+</html>
