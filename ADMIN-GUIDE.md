@@ -86,12 +86,26 @@ Several sections use **cards** — each card has a **Title** and a **Description
 
 ---
 
-## Step 5: Save and Publish
+## Step 5: Save a Draft or Publish
 
-When you're done making changes:
+The admin panel now separates **saving** your work from **publishing** it live — so you can stop partway through an edit, come back later, and nothing goes out to the public site until you say so.
 
-1. Click the **"Publish"** button (top-right area of the screen)
-2. Select **"Publish now"**
+### Saving without publishing
+
+1. Click **"Save"** (top-right area of the screen) instead of Publish
+2. Your changes are safely stored as a draft — you can close the browser, come back tomorrow, and pick up where you left off
+3. The live website is untouched until you publish
+
+### Checking on drafts in progress
+
+1. Click **"Workflow"** in the left sidebar (next to "Insights" and "Site Content")
+2. You'll see three columns: **Drafts**, **In Review**, and **Ready**
+3. Anything you've saved but not published shows up here — open it to keep editing, or drag it to **"Ready"** when it's good to go
+
+### Publishing
+
+1. When a change is ready to go live, move it to the **"Ready"** column in Workflow (or open it and set its status to Ready)
+2. Click **"Publish"** on it
 3. Wait about 30–60 seconds for the website to rebuild
 4. Refresh your website to see the changes live
 
