@@ -16,7 +16,7 @@ Nobody around there called it aviation striping. They called them the candy cane
 
 The plant stopped burning coal in 2010. A few years later I went to work on the project that would take it down and build a natural gas plant on the site next door, and I assumed, without ever really examining the assumption, that demolishing a retired coal plant's smokestacks was going to be the easy part of my job. Who mourns a smokestack?
 
-I found out I was wrong about that early, and it taught me more than anything else on the project.
+> I found out I was wrong about that early, and it taught me more than anything else on the project.
 
 My title was Director of Project Outreach at Alliant Energy, and the project was the expansion of the Riverside Energy Center in Rock County, filed with the Public Service Commission at roughly $700 million. I oversaw the local relationships. I built a community advisory group of residents and stakeholders that met monthly, ran listening sessions and open houses so people could put a question straight to an engineer instead of to me, and kept the elected officials informed. Inside the project team, my job was to be the community's voice in a room the community wasn't in.
 

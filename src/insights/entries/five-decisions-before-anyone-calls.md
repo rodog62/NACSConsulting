@@ -14,7 +14,7 @@ There's an objection in the paper I published on DeForest that I raise against m
 
 I want to come back to it, because what I gave there was the smaller half of the truth.
 
-Most of what makes a community ready has nothing to do with what it can afford to study.
+> Most of what makes a community ready has nothing to do with what it can afford to study.
 
 We have gotten into the habit of describing preparedness as a technical problem. Zoning provisions, capacity analysis, fiscal modeling, interconnection timelines. Those things matter enormously and, to be clear, I am not equipped to do any of them. But notice what happens when preparedness gets defined that way: it becomes something you buy, which means it becomes something you postpone, which means the first time anybody looks at it is the week a proposal arrives and the clock has already started.
 
@@ -24,15 +24,25 @@ What mattered most was simpler. By the time residents were told anything, they h
 
 So here is a different starting point. There are five decisions a council or a board can make in an afternoon, with nobody in the room but themselves. Every one of them is free. Every one of them costs more the later it gets made. And not one requires knowing whether a proposal is coming.
 
-**What confidentiality you will and won't accept?** Put it on paper before the question is live. What you would sign, what you wouldn't, and what you will tell residents regardless of what you sign. Port Washington went ahead without signing one and kept its project, which is the useful half of that example. The other half is that refusing to sign and actually being open are separate commitments, and people will judge you on the second one no matter what you did about the first. I am not arguing you can always say no. I am arguing the terms ought to be yours, decided in a quiet room rather than a crowded one.
+### What confidentiality you will and won't accept
 
-**When the public learns that something exists?** This is the decision I'd put first if I could only get a board to make one. Early developer contact with staff is unremarkable and a prepared community should expect it. What DeForest didn't have was any rule governing the moment that contact stops being private. Pick a number of days after a formal inquiry, decide who makes the notification, and write it down. Nobody there chose to be less transparent. The choice just never got made, so events made it instead, which is how most transparency problems actually happen.
+Put it on paper before the question is live. What you would sign, what you wouldn't, and what you will tell residents regardless of what you sign. Port Washington went ahead without signing one and kept its project, which is the useful half of that example. The other half is that refusing to sign and actually being open are separate commitments, and people will judge you on the second one no matter what you did about the first. I am not arguing you can always say no. I am arguing the terms ought to be yours, decided in a quiet room rather than a crowded one.
 
-**How do residents get heard before opposition is the only organized voice?** In DeForest there was no structured channel for input until residents built one themselves, and the one they built was oppositional because that is the only kind available when nothing else exists. I want to be careful here, because this is easy to hear as a manipulation and it isn't one. A standing engagement channel does not reduce opposition and it isn't designed to. What it does is make sure opposition isn't the only thing you can hear, and that residents who are curious, or conflicted, or supportive with conditions, have somewhere to be. Very little of the anger in DeForest was about the facility itself. Most of it was about when people found out.
+### When the public learns that something exists
 
-**Who you would call, and in what order?** Name your advisory team now. Which planner, which municipal attorney, which fiscal and environmental analysts. DeForest did fund outside experts through a reimbursement agreement, which was the right instinct, but it started once the proposal was already moving, so the specialists were still learning the village while the calendar burned. Inside a 120-day statutory window, a team that needs three weeks to get oriented has spent a sixth of your clock on orientation. I'll be direct that I have an interest in that list, and equally direct that I'm not competing for most of the seats on it. That's precisely why helping a room build it is work I can do honestly.
+This is the decision I'd put first if I could only get a board to make one. Early developer contact with staff is unremarkable and a prepared community should expect it. What DeForest didn't have was any rule governing the moment that contact stops being private. Pick a number of days after a formal inquiry, decide who makes the notification, and write it down. Nobody there chose to be less transparent. The choice just never got made, so events made it instead, which is how most transparency problems actually happen.
 
-**What your officials will actually say?** The first time a trustee gets asked about this in a grocery store, there is going to be an answer. The only question is whether it's one the board agreed on. Deciding in advance what you can say, what you don't yet know, and how you'll describe your own process is not message control. It's the difference between five officials describing the same posture and five officials improvising five different ones, which residents read, correctly, as a sign that nobody is driving.
+### How residents get heard before opposition is the only organized voice
+
+In DeForest there was no structured channel for input until residents built one themselves, and the one they built was oppositional because that is the only kind available when nothing else exists. I want to be careful here, because this is easy to hear as a manipulation and it isn't one. A standing engagement channel does not reduce opposition and it isn't designed to. What it does is make sure opposition isn't the only thing you can hear, and that residents who are curious, or conflicted, or supportive with conditions, have somewhere to be. Very little of the anger in DeForest was about the facility itself. Most of it was about when people found out.
+
+### Who you would call, and in what order
+
+Name your advisory team now. Which planner, which municipal attorney, which fiscal and environmental analysts. DeForest did fund outside experts through a reimbursement agreement, which was the right instinct, but it started once the proposal was already moving, so the specialists were still learning the village while the calendar burned. Inside a 120-day statutory window, a team that needs three weeks to get oriented has spent a sixth of your clock on orientation. I'll be direct that I have an interest in that list, and equally direct that I'm not competing for most of the seats on it. That's precisely why helping a room build it is work I can do honestly.
+
+### What your officials will actually say
+
+The first time a trustee gets asked about this in a grocery store, there is going to be an answer. The only question is whether it's one the board agreed on. Deciding in advance what you can say, what you don't yet know, and how you'll describe your own process is not message control. It's the difference between five officials describing the same posture and five officials improvising five different ones, which residents read, correctly, as a sign that nobody is driving.
 
 None of those five is a study. They are decisions about how a community intends to behave, and they are available to any board willing to spend an afternoon on them.
 

@@ -15,8 +15,11 @@
 
   <main id="insight-main" class="section insight-page">
     <div class="container content-narrow">
-      <p class="insight-date">{{ date | readableDate }}{% if readTime %} &middot; {{ readTime }}{% endif %}</p>
+      {% if type %}
+      <p class="section-label">{{ type | replace("-", " ") | upper }}</p>
+      {% endif %}
       <h1 class="section-heading insight-title">{{ title }}</h1>
+      <p class="insight-date">{{ date | readableDate }}{% if readTime %} &middot; {{ readTime }}{% endif %}</p>
 
       {% if summary %}
       <p class="insight-summary">{{ summary }}</p>

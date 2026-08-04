@@ -652,11 +652,11 @@ a:hover {
   font-size: 0.8rem;
   color: var(--color-body);
   letter-spacing: 0.5px;
-  margin-bottom: 0.75rem;
+  margin-bottom: 1.75rem;
 }
 
 .insight-title {
-  margin-bottom: 1.5rem;
+  margin-bottom: 0.75rem;
 }
 
 .insight-summary {
