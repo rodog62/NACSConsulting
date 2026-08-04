@@ -44,6 +44,18 @@ collections:
         label: "Edit Website Content"
         file: "src/_data/site.json"
         fields:
+          # ── Analytics ──
+          - label: "Analytics"
+            name: "analytics"
+            widget: "object"
+            collapsed: true
+            fields:
+              - label: "Google Analytics Measurement ID"
+                name: "ga4_id"
+                widget: "string"
+                required: false
+                hint: "Looks like G-XXXXXXXXXX. Get it from analytics.google.com under Admin → Data Streams. Leave blank to turn analytics off entirely."
+
           # ── Meta / SEO ──
           - label: "SEO & Meta"
             name: "meta"

@@ -33,6 +33,7 @@ After logging in, you'll see a screen called **"Site Content"**.
 
 | Section | What You Can Edit |
 |---------|-------------------|
+| **Analytics** | Your Google Analytics Measurement ID (see "Turning On Analytics" below) |
 | **SEO & Meta** | Page title and description (what shows up in Google search results) |
 | **Hero Section** | The big tagline, subtitle, and button text at the top of the site |
 | **About Section** | Your bio paragraphs, headshot photo, and personal quote |
@@ -108,6 +109,35 @@ The admin panel now separates **saving** your work from **publishing** it live �
 2. Click **"Publish"** on it
 3. Wait about 30–60 seconds for the website to rebuild
 4. Refresh your website to see the changes live
+
+---
+
+## Turning On Analytics
+
+The site is wired for Google Analytics but **won't track anything until you paste in a Measurement ID**. No ID means no tracking scripts load at all.
+
+### One-time setup
+
+1. Go to [analytics.google.com](https://analytics.google.com) and sign in
+2. Create a property for **nascconsulting.com** if you don't already have one
+3. Go to **Admin → Data Streams → Web**, and add `nascconsulting.com` as a stream
+4. Copy the **Measurement ID** — it looks like `G-XXXXXXXXXX`
+5. In the admin panel, open **Site Content → Edit Website Content → Analytics**
+6. Paste the ID into **Google Analytics Measurement ID** and publish
+
+Within a few minutes, Google Analytics will start showing traffic under **Reports → Realtime**.
+
+### What gets tracked
+
+- **Page views** for every page, including each Insights item separately — so you can see how the white paper does on its own
+- **Where visitors came from** (LinkedIn, Google, direct, etc.) — this is the number that tells you whether a LinkedIn post actually worked
+- **White paper downloads** — every click of a "Download the PDF" button is recorded as a `paper_download` event, with the paper's title attached
+
+To find downloads: **Reports → Engagement → Events**, then look for `paper_download`.
+
+### Important timing note
+
+Analytics only counts traffic from the moment it's switched on — there's no way to recover data from before that. If the white paper is going out August 11, the ID needs to be in place **before** then, or the launch traffic is lost permanently.
 
 ---
 

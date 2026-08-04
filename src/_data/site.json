@@ -1,4 +1,7 @@
 {
+  "analytics": {
+    "ga4_id": ""
+  },
   "contact": {
     "heading": "Let’s Talk",
     "success_message": "Thank you for reaching out! I’ll get back to you soon.",

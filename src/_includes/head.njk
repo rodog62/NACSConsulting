@@ -29,3 +29,14 @@
 
   <!-- Styles -->
   <link rel="stylesheet" href="/css/styles.css">
+
+  <!-- Google Analytics 4 — only loads once a Measurement ID is set in the admin panel -->
+  {% if site.analytics.ga4_id %}
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.analytics.ga4_id }}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '{{ site.analytics.ga4_id }}');
+  </script>
+  {% endif %}
