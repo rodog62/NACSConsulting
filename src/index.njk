@@ -1,28 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ site.meta.title }}</title>
-  <meta name="description" content="{{ site.meta.description }}">
-
-  <!-- Open Graph -->
-  <meta property="og:title" content="{{ site.meta.title }}">
-  <meta property="og:description" content="{{ site.meta.og_description }}">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://nascconsulting.com/">
-  <meta property="og:image" content="https://nascconsulting.com/assets/images/logo.jpeg">
-
-  <!-- Favicon -->
-  <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
-
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
-
-  <!-- Styles -->
-  <link rel="stylesheet" href="css/styles.css">
+  {% set pageTitle = site.meta.title %}
+  {% set pageDescription = site.meta.description %}
+  {% set pageOgDescription = site.meta.og_description %}
+  {% set pageUrl = "https://nascconsulting.com/" %}
+  {% set pageImage = "https://nascconsulting.com/assets/images/og-home.png" %}
+  {% include "head.njk" %}
 
   <!-- Structured Data -->
   <script type="application/ld+json">
@@ -53,31 +37,12 @@
   <a href="#hero" class="skip-link">Skip to content</a>
 
   <!-- Header -->
-  <header class="site-header" id="site-header">
-    <div class="container header-inner">
-      <a href="#hero" class="header-logo">
-        <img src="assets/images/logo.jpeg" alt="Nasc Consulting Celtic knot logo" width="36" height="36">
-        <span class="header-logo-text">Nasc <span class="text-primary">Consulting</span></span>
-      </a>
-      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
-        <span class="nav-toggle-bar"></span>
-        <span class="nav-toggle-bar"></span>
-        <span class="nav-toggle-bar"></span>
-      </button>
-      <nav class="site-nav" id="site-nav">
-        <a href="#about" class="nav-link">About</a>
-        <a href="#services" class="nav-link">Services</a>
-        <a href="#community" class="nav-link">Community</a>
-        <a href="#why-nasc" class="nav-link">Why Nasc</a>
-        <a href="#contact" class="nav-link">Contact</a>
-      </nav>
-    </div>
-  </header>
+  {% include "header.njk" %}
 
   <!-- Hero -->
   <section id="hero" class="hero">
     <div class="container hero-inner">
-      <img src="assets/images/logo.jpeg" alt="Nasc Consulting logo" class="hero-logo" width="200" height="160">
+      <img src="/assets/images/logo.jpeg" alt="Nasc Consulting logo" class="hero-logo" width="200" height="160">
       <h1 class="hero-title">Nasc <span class="text-primary">Consulting</span></h1>
       <p class="hero-tagline">{{ site.hero.tagline }}</p>
       <p class="hero-subtitle">{{ site.hero.subtitle }}</p>
@@ -175,6 +140,24 @@
     </div>
   </section>
 
+  <!-- Latest Insight -->
+  {% if collections.insights and collections.insights.length %}
+  {% set latest = collections.insights[0] %}
+  <section id="latest" class="section section-alt latest-block">
+    <div class="container content-narrow">
+      <p class="section-label">INSIGHTS</p>
+      <h2 class="section-heading">Latest Thinking</h2>
+      <div class="latest-card">
+        <p class="latest-date">{{ latest.data.date | readableDate }}</p>
+        <h3 class="latest-title"><a href="{{ latest.url }}">{{ latest.data.title }}</a></h3>
+        <p class="latest-summary">{{ latest.data.summary }}</p>
+        <a href="{{ latest.url }}" class="latest-link">Read more &rarr;</a>
+      </div>
+      <a href="/insights/" class="btn btn-outline latest-view-all">VIEW ALL INSIGHTS</a>
+    </div>
+  </section>
+  {% endif %}
+
   <!-- Contact -->
   <section id="contact" class="section">
     <div class="container content-narrow">
@@ -233,16 +216,9 @@
   </section>
 
   <!-- Footer -->
-  <footer class="site-footer">
-    <div class="container footer-inner">
-      <p class="footer-brand">Nasc <span class="text-primary">Consulting</span></p>
-      <p class="footer-tagline">{{ site.footer.tagline }}</p>
-      <p class="footer-meta">&copy; {{ site.footer.year }} Nasc Consulting</p>
-      <p class="footer-meta">{{ site.footer.location }}</p>
-    </div>
-  </footer>
+  {% include "footer.njk" %}
 
-  <script src="js/main.js"></script>
+  <script src="/js/main.js"></script>
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   <script>
     if (window.netlifyIdentity) {

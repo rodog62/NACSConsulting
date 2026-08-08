@@ -16,6 +16,9 @@
     "description": "Rob Crain helps Wisconsin municipalities and organizations get ready for data centers and the infrastructure that follows. Stakeholder relations, community engagement, and strategic communications, upstream of the public hearing.",
     "og_description": "Wisconsin communities are facing data center and infrastructure decisions that arrive fast and move faster. I help them get ahead of the conversation instead of reacting to it."
   },
+  "analytics": {
+    "ga4_id": "G-MLXMMP891T"
+  },
   "clients": {
     "label": "WHO I SERVE",
     "heading": "A Wide Table",
