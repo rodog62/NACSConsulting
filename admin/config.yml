@@ -17,6 +17,7 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false }
+      - { label: "Manual Sort Order (optional)", name: "order", widget: "number", valueType: "int", required: false, hint: "Only matters when two items share the same Date — lower number shows first. Leave blank otherwise; the hub sorts newest Date first by default." }
       - label: "Type"
         name: "type"
         widget: "select"

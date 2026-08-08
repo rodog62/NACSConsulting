@@ -1,6 +1,7 @@
 ---
 title: "Data Center Siting in Wisconsin: What Communities Need to Know"
 date: 2026-08-11
+order: 1
 type: white-paper
 summary: "[PLACEHOLDER — replace with the real 150–250 word summary before publishing.] A look at how Wisconsin municipalities can approach data center siting proposals — the questions to ask, the leverage points that actually matter, and how to keep the community at the table through the process."
 description: ""
