@@ -5,7 +5,7 @@
   "contact": {
     "heading": "Let’s Talk",
     "success_message": "Thank you for reaching out! I’ll get back to you soon.",
-    "subtext": "Whether you’re navigating a complex stakeholder challenge, trying to get competing interests to see and hear each other clearly, or figuring out how to tell your story in a way that actually lands — I’d be glad to talk.",
+    "subtext": "Whether you’re navigating a complex stakeholder challenge, trying to get competing interests to see and hear each other clearly, or figuring out how to tell your story in a way that actually lands, I’d be glad to talk.",
     "phone": "(608) 444-8519",
     "error_message": "Something went wrong. Please email me directly.",
     "label": "GET IN TOUCH",
@@ -26,7 +26,7 @@
     "items": [
       {
         "title": "Private Sector Organizations",
-        "description": "Companies navigating external change – utilities, professional services firms, and organizations in between – that need someone who understands both the “business” side and the needs of the community it operates within."
+        "description": "Companies navigating external change — utilities, professional services firms, and organizations in between —  that need someone who understands both the “business” side and the needs of the community it operates within."
       },
       {
         "title": "Nonprofits & Associations",
@@ -41,7 +41,7 @@
   "community": {
     "label": "COMMUNITY AND CIVIC LEADERSHIP",
     "heading": "Rooted in Wisconsin",
-    "quote": "\"I’ve always believed that the best way to understand a community is to be part of it. Over the years, that’s meant showing up — on boards, in committee rooms, and even on the sidelines of youth sports.\"",
+    "quote": "\"I’ve always believed that the best way to understand a community is to be part of it. Over the years, that’s meant showing up: on boards, in committee rooms, and even on the sidelines of youth sports.\"",
     "items": [
       {
         "title": "Business Development",
@@ -49,7 +49,7 @@
       },
       {
         "title": "Tourism & Hospitality",
-        "description": "Past Chair – Destination Madison Board of Directors. Focused on governance and advocacy connecting community identity with economic opportunity."
+        "description": "Past Chair —  Destination Madison Board of Directors. Focused on governance and advocacy connecting community identity with economic opportunity."
       },
       {
         "title": "Community Relations",
@@ -75,7 +75,7 @@
     "items": [
       {
         "title": "Both Sides of the Table",
-        "description": "I’ve spent 15 years as a journalist asking the hard questions — and the next 15 plus in the corporate world navigating them from the inside. That perspective is rare – it both informs and enriches the work."
+        "description": "I’ve spent 15 years as a journalist asking the hard questions, and the next 15 plus in the corporate world navigating them from the inside. That perspective is rare. It both informs and enriches the work."
       },
       {
         "title": "Every Sector, One Thread",
@@ -101,7 +101,7 @@
     "headshot": "/assets/images/headshot.jpg",
     "paragraphs": [
       "I spent the first 15 years of my career in broadcast news — as a photojournalist, newscast producer, and eventually running television newsrooms. Those years taught me something I’ve carried into every room since: how to listen and discern, to find the story that actually matters, and how to tell it in a way people can hear on the first pass.",
-      "The next 15 plus took me into the corporate world — spanning communications, customer experience, and economic development. But some of the most meaningful work happened outside the office: on boards, in community organizations, and in volunteer roles where real relationships are built between an organization and its community."
+      "The next 15 plus took me into the corporate world, spanning communications, customer experience, and economic development. But some of the most meaningful work happened outside the office: on boards, in community organizations, and in volunteer roles where real relationships are built between an organization and its community."
     ],
     "quote": "“That combination — both sides of the table, for more than three decades — is what I bring to Nasc Consulting.”"
   },
@@ -132,7 +132,7 @@
       },
       {
         "title": "Business & Economic Development",
-        "description": "Growth doesn’t happen in a vacuum. Not only do I help connect the right people, organizations, and opportunities to make things move, I also work to build-out the right structure to support a collaborative effort."
+        "description": "Growth doesn't happen in a vacuum. I connect the people, organizations, and opportunities that get something moving, and then I build the structure that keeps it moving after the introductions are over. The second part is the one most efforts skip."
       },
       {
         "title": "Public Policy",
@@ -148,7 +148,7 @@
       },
       {
         "title": "Utility Engagement",
-        "description": "Interconnection, load growth, rate impact. The utility conversation is where a lot of siting decisions are actually settled, and it's usually the one a community is least equipped to have. I spent eighteen years inside two of Wisconsin's largest energy companies. I can tell you how that side of the table thinks, and what it will and won't move on."
+        "description": "Interconnection, load growth, rate impact. The utility conversation is where a lot of siting decisions are actually settled, and it's usually the one a community is least equipped to have. I spent fifteen plus years inside two of Wisconsin's largest energy companies. I can tell you how that side of the table thinks, and what it will and won't move on."
       }
     ]
   }
