@@ -10,11 +10,11 @@ readTime: "5 min read"
 ctaText: "Facing a project that's about to arrive in your community?"
 ctaLink: "/#contact"
 ---
-For sixty years the Rock River Generating Station burned coal on a site in the town of Beloit, and for most of that time its stacks wore alternating bands of red and white. The striping was a federal aviation requirement. The plant sits in the Rock River Valley a few miles south of the Southern Wisconsin Regional Airport, and pilots on approach needed to pick those stacks out on a hazy afternoon.
+For decades the Rock River Generating Station burned coal on a site in the town of Beloit, and for most of that time its stacks wore alternating bands of red and white. The striping was a federal aviation requirement. The plant sits in the Rock River Valley a few miles south of the Southern Wisconsin Regional Airport, and pilots on approach needed to pick those stacks out on a hazy afternoon.
 
 Nobody around there called it aviation striping. They called them the candy canes.
 
-The plant stopped burning coal in 2010. A few years later I went to work on the project that would take it down and build a natural gas plant on the site next door, and I assumed, without ever really examining the assumption, that demolishing a retired coal plant's smokestacks was going to be the easy part of my job. Who mourns a smokestack?
+The plant stopped generating in 2009 and was formally retired in 2012. A few years later I went to work on the project that would take it down and build a natural gas plant on the site next door, and I assumed, without ever really examining the assumption, that demolishing a retired coal plant's smokestacks was going to be the easy part of my job. Who mourns a smokestack?
 
 > I found out I was wrong about that early, and it taught me more than anything else on the project.
 
@@ -22,11 +22,11 @@ My title was Director of Project Outreach at Alliant Energy, and the project was
 
 That last part is the one that matters for the rest of this.
 
-I started in the community in August of 2014. The company announced its intentions that November, and we filed the formal application (Certificate of Public Convenience and Necessity, or CPCN) about a year after that. The Commission approved the project on April 1, 2016. The engagement work ran three months ahead of the announcement and more than a year ahead of the filing, and after that the two calendars moved together the whole way.
+I started in the community in August of 2014. The company announced its intentions that November, and we filed the formal application (Certificate of Public Convenience and Necessity, or CPCN) the following May. The Commission voted to approve at the end of March 2016, and issued its written decision that May. The engagement work ran three months ahead of the announcement and nine months ahead of the filing, and after that the two calendars moved together the whole way.
 
-I want to be honest about why. A rate-regulated project runs on a long clock because the process demands one, so the runway wasn't generosity. What was a choice was how we spent it, and using that year to get to know the people who would live next to the thing is the most consequential decision on that project that nobody had to fight about.
+I want to be honest about why. A rate-regulated project runs on a long clock because the process demands one, so the runway wasn't generosity. What was a choice was how we spent it, and using that time to get to know the people who would live next to the thing is the most consequential decision on that project that nobody had to fight about.
 
-None of which made it a quiet process. Riverside drew real opposition from more than one direction, and the directions were not the same. The Citizens Utility Board and the Wisconsin Industrial Energy Group intervened on ratepayer grounds. Sierra Club and Clean Wisconsin pushed back on the project's reliance on natural gas. Those are serious organizations arguing statewide energy policy, and their arguments would have been the same wherever the plant went. Then there were neighbors who came to the Commission's hearings in Beloit to talk about air quality and about how close all of this sat to where their kids slept.
+None of which made it a quiet process. Riverside drew real opposition from more than one direction, and the directions were not the same. The Citizens Utility Board and the Wisconsin Industrial Energy Group intervened on ratepayer grounds. Clean Wisconsin pushed back on the project's reliance on natural gas. Those are serious organizations arguing statewide energy policy, and their arguments would have been the same wherever the plant went. Then there were neighbors who came to the Commission's hearings in Beloit to talk about air quality and about how close all of this sat to where their kids slept.
 
 Those are two different oppositions that happen to show up on the same night, and communities routinely mistake one for the other. Policy opposition arrives with a position already formed and isn't really about you. Proximity opposition is about you entirely, and it is the one that can still be shaped by how the applicant behaves.
 
