@@ -26,7 +26,7 @@
         <li class="insights-list-item">
           <p class="insights-list-date">{{ item.data.date | readableDate }}</p>
           <h2 class="insights-list-title"><a href="{{ item.url }}">{{ item.data.title }}</a></h2>
-          <p class="insights-list-summary">{{ item.data.summary }}</p>
+          <p class="insights-list-summary">{{ item.data.teaser or item.data.summary }}</p>
           <a href="{{ item.url }}" class="insights-list-link">Read more &rarr;</a>
         </li>
         {% endfor %}

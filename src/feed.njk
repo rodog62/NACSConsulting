@@ -16,7 +16,7 @@ eleventyExcludeFromCollections: true
     <link>https://nascconsulting.com{{ item.url }}</link>
     <guid>https://nascconsulting.com{{ item.url }}</guid>
     <pubDate>{{ item.data.date | rssDate }}</pubDate>
-    <description>{{ item.data.summary }}</description>
+    <description>{{ item.data.teaser or item.data.summary }}</description>
   </item>
   {% endfor %}
 </channel>

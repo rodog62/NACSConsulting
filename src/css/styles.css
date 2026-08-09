@@ -666,6 +666,14 @@ a:hover {
   margin-bottom: 2rem;
 }
 
+.insight-summary p {
+  margin-bottom: 1.25rem;
+}
+
+.insight-summary p:last-child {
+  margin-bottom: 0;
+}
+
 .insight-findings {
   background: var(--color-light-bg);
   border-radius: 8px;

@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
   {% set pageTitle = title + " — Nasc Consulting" %}
-  {% set pageDescription = description or summary %}
-  {% set pageOgDescription = description or summary %}
+  {% set pageDescription = description or teaser or summary %}
+  {% set pageOgDescription = description or teaser or summary %}
   {% set pageImage = ("https://nascconsulting.com" + image) if image else "https://nascconsulting.com/assets/images/og-home.png" %}
   {% include "head.njk" %}
 </head>
@@ -22,7 +22,7 @@
       <p class="insight-date">{{ date | readableDate }}{% if readTime %} &middot; {{ readTime }}{% endif %}</p>
 
       {% if summary %}
-      <p class="insight-summary">{{ summary }}</p>
+      <div class="insight-summary">{{ summary | paragraphs | safe }}</div>
       {% endif %}
 
       {% if keyFindings and keyFindings.length %}

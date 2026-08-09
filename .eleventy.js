@@ -39,6 +39,17 @@ module.exports = function (eleventyConfig) {
     return new Date(date).toUTCString();
   });
 
+  // Renders a plain-text field's blank-line-separated paragraphs as <p> tags.
+  eleventyConfig.addFilter("paragraphs", function (text) {
+    if (!text) return "";
+    return text
+      .split(/\n\s*\n/)
+      .map(function (p) { return p.trim(); })
+      .filter(Boolean)
+      .map(function (p) { return "<p>" + p + "</p>"; })
+      .join("\n");
+  });
+
   return {
     dir: {
       input: "src",

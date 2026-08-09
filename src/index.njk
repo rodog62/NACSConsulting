@@ -150,7 +150,7 @@
       <div class="latest-card">
         <p class="latest-date">{{ latest.data.date | readableDate }}</p>
         <h3 class="latest-title"><a href="{{ latest.url }}">{{ latest.data.title }}</a></h3>
-        <p class="latest-summary">{{ latest.data.summary }}</p>
+        <p class="latest-summary">{{ latest.data.teaser or latest.data.summary }}</p>
         <a href="{{ latest.url }}" class="latest-link">Read more &rarr;</a>
       </div>
       <a href="/insights/" class="btn btn-outline latest-view-all">VIEW ALL INSIGHTS</a>

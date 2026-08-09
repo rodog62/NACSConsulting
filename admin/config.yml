@@ -24,8 +24,9 @@ collections:
         options: ["white-paper", "announcement", "project-note"]
         default: "project-note"
         hint: "Not shown on the site yet — used later if the hub gets filters/sections."
-      - { label: "Summary (150–250 words, shown on hub + link previews)", name: "summary", widget: "text" }
-      - { label: "Meta Description Override (optional, defaults to Summary)", name: "description", widget: "text", required: false }
+      - { label: "On-Page Summary (shown at the top of this item's own page — leave a blank line between paragraphs for multi-paragraph summaries)", name: "summary", widget: "text" }
+      - { label: "Hub & Homepage Teaser (optional, one short paragraph — shown on the Insights list and the homepage 'Latest Thinking' block, and used as the link-preview description. Leave blank to reuse the On-Page Summary for all of that.)", name: "teaser", widget: "text", required: false }
+      - { label: "Meta Description Override (optional — defaults to Teaser, then On-Page Summary)", name: "description", widget: "text", required: false }
       - { label: "Preview Image (for link previews — LinkedIn, etc.)", name: "image", widget: "image", required: false }
       - { label: "PDF (for white papers)", name: "pdf", widget: "file", required: false, media_folder: "/src/assets/documents", public_folder: "/assets/documents" }
       - { label: "Read Time / Page Count (e.g. \"8 min read\" or \"12 pages\")", name: "readTime", widget: "string", required: false }
