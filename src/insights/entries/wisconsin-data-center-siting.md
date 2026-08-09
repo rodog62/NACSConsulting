@@ -21,9 +21,10 @@ summary: >-
 
 
   A prepared community isn't one that says yes to every proposal, or no to all of them. It's one that can make either call on its own terms, and explain it to residents with a straight face.
-teaser: A $12 billion data center proposal collapsed in DeForest, Wisconsin in
-  under four months. Five gaps made it feel inevitable. All are fixable in
-  advance.
+teaser: A $12 billion data center proposal moved through DeForest, Wisconsin in
+  under four months and collapsed. Neither side got what it wanted. Five
+  structural gaps made the sprint feel inevitable, and every one of them is
+  fixable before the next proposal arrives.
 description: ""
 image: /assets/images/deforest-timeline-og.png
 pdf: /assets/documents/lessons-from-deforest.pdf
