@@ -1,16 +1,19 @@
 ---
-title: "I Thought They'd Be Glad to See the Stacks Come Down"
+title: I Thought They'd Be Glad to See the Stacks Come Down
 date: 2026-08-04
 type: project-note
-summary: "Rob spent a year building community relationships around a $700 million power plant expansion in Rock County. He assumed demolishing a retired coal plant's smokestacks would be the easy part of the job. What the Riverside Energy Center taught him about the window before positions harden."
+summary: For decades the Rock River Generating Station's smokestacks wore
+  alternating bands of orange and white. Aviation striping, technically.
+  Everybody around Beloit called them the candy canes. I assumed taking them
+  down would be the easy part of a $700 million siting. I was wrong.
 description: ""
 image: ""
 pdf: ""
-readTime: "5 min read"
-ctaText: "Facing a project that's about to arrive in your community?"
-ctaLink: "/#contact"
+readTime: 5 min read
+ctaText: Facing a project that's about to arrive in your community?
+ctaLink: /#contact
 ---
-For decades the Rock River Generating Station burned coal on a site in the town of Beloit, and for most of that time its stacks wore alternating bands of red and white. The striping was a federal aviation requirement. The plant sits in the Rock River Valley a few miles south of the Southern Wisconsin Regional Airport, and pilots on approach needed to pick those stacks out on a hazy afternoon.
+For decades the Rock River Generating Station burned coal on a site in the town of Beloit, and for most of that time its stacks wore alternating bands of orange and white. The striping was a federal aviation requirement. The plant sits in the Rock River Valley a few miles south of the Southern Wisconsin Regional Airport, and pilots on approach needed to pick those stacks out on a hazy afternoon.
 
 Nobody around there called it aviation striping. They called them the candy canes.
 
@@ -34,9 +37,9 @@ Which brings me back to the candy canes.
 
 We heard it almost immediately once we started asking. Those stacks were how people gave directions. They were what told you that you were nearly home coming north out of Beloit. Sixty years of a landmark had accumulated on top of a piece of infrastructure nobody had ever been asked to have feelings about, and my clean assumption that the community would be glad to see them go was just wrong. Not wrong on the merits of demolition. Wrong about what the stacks were.
 
-The new plant's stacks are much shorter, and no aviation rule required a thing to be painted on them. The company striped them red and white anyway. That was a nod to the site's past, and it came entirely from the community.
+The new plant's stacks are much shorter, and no aviation rule required a thing to be painted on them. The company striped them orange and white anyway. That was a nod to the site's past, and it came entirely from the community.
 
-The other one I think about is the cooling tower. The existing wet cooling tower at Riverside threw a heavy visible plume in cold weather, and local stakeholders told us what that actually meant on the ground: a vapor cloud sitting in the valley, fog and icing risk along a heavily traveled county highway, and visibility problems for people whose houses were right there. So while the expansion plans were still being drawn, Alliant went back and retrofit the existing tower with technology that heats and dries the air stream before it exits, which largely eliminated the visible plume. Then, when the formal application went in, plume-abated hybrid cooling was written into the baseline engineering specifications for the new unit.
+The other one I think about is the cooling tower. The existing wet cooling tower at Riverside threw a heavy visible plume in cold weather, and local stakeholders told us what that actually meant on the ground: a vapor cloud sitting in the valley, fog and icing risk along a heavily traveled county highway, and visibility problems for people whose houses were right there. So while the expansion plans were still being drawn, Alliant went back and retrofit the existing tower with technology that heats and dries the air stream before it exits, which largely eliminated the visible plume. Then, when the formal application went in, plume-abated hybrid cooling was written into the baseline engineering specifications for the new unit. The Commission's own final decision ended up ordering the company to control cooling tower plumes, fog, and ice, which tells you the neighbors had identified a real problem and not a preference.
 
 Neither of those was in the original plan. I'm not sure the company would have arrived at either one on its own.
 
