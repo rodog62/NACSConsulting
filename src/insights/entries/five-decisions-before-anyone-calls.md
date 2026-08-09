@@ -5,9 +5,9 @@ order: 2
 type: project-note
 summary: Preparedness usually gets described as a technical problem, which makes
   it something you buy, which makes it something you postpone until a proposal
-  is already on the table. But the decisions that mattered most in DeForest cost
-  nothing at all. Five a board can settle in a single afternoon, with nobody in
-  the room but themselves.
+  is already on the table. But the decisions that matter most cost nothing at
+  all. Five a board can settle in a single afternoon, with nobody in the room
+  but themselves.
 description: ""
 image: ""
 pdf: ""
