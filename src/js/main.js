@@ -39,6 +39,24 @@
     });
   }
 
+  // Track white paper / PDF downloads.
+  // Named distinctly from GA4's automatic "file_download" event so the two
+  // don't double-count the same click.
+  var download = document.querySelector('.insight-download');
+
+  if (download) {
+    download.addEventListener('click', function () {
+      if (typeof window.gtag !== 'function') { return; }
+
+      var heading = document.querySelector('.insight-title');
+
+      window.gtag('event', 'paper_download', {
+        paper_title: heading ? heading.textContent.trim() : document.title,
+        file_url: download.getAttribute('href')
+      });
+    });
+  }
+
   // Contact form submission via fetch
   var form = document.getElementById('contact-form');
   var successMsg = document.getElementById('form-success');

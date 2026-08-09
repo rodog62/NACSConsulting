@@ -1,0 +1,8 @@
+{
+  "layout": "layouts/insight.njk",
+  "tags": ["insights"],
+  "permalink": "insights/{{ page.fileSlug }}/index.html",
+  "eleventyComputed": {
+    "pageUrl": "https://nascconsulting.com/insights/{{ page.fileSlug }}/"
+  }
+}
