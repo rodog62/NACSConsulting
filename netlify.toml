@@ -1,3 +1,12 @@
 [build]
   command = "npx @11ty/eleventy"
   publish = "_site"
+
+# The white paper's slug was renamed to match its real title after its
+# original URL had already gone live, so this redirect keeps any existing
+# link or share from 404ing.
+[[redirects]]
+  from = "/insights/wisconsin-data-center-siting/"
+  to = "/insights/lessons-from-deforest/"
+  status = 301
+  force = true

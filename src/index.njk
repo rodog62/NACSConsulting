@@ -71,6 +71,24 @@
     </div>
   </section>
 
+  <!-- Latest Insight -->
+  {% if collections.insights and collections.insights.length %}
+  {% set latest = collections.insights[0] %}
+  <section id="latest" class="section latest-block">
+    <div class="container content-narrow">
+      <p class="section-label">INSIGHTS</p>
+      <h2 class="section-heading">Latest Thinking</h2>
+      <div class="latest-card">
+        <p class="latest-date">{{ latest.data.date | readableDate }}</p>
+        <h3 class="latest-title"><a href="{{ latest.url }}">{{ latest.data.title }}</a></h3>
+        <p class="latest-summary">{{ latest.data.teaser or latest.data.summary }}</p>
+        <a href="{{ latest.url }}" class="latest-link">Read more &rarr;</a>
+      </div>
+      <a href="/insights/" class="btn btn-outline latest-view-all">VIEW ALL INSIGHTS</a>
+    </div>
+  </section>
+  {% endif %}
+
   <!-- Services -->
   <section id="services" class="section section-alt">
     <div class="container content-narrow">
@@ -139,24 +157,6 @@
       {% endfor %}
     </div>
   </section>
-
-  <!-- Latest Insight -->
-  {% if collections.insights and collections.insights.length %}
-  {% set latest = collections.insights[0] %}
-  <section id="latest" class="section section-alt latest-block">
-    <div class="container content-narrow">
-      <p class="section-label">INSIGHTS</p>
-      <h2 class="section-heading">Latest Thinking</h2>
-      <div class="latest-card">
-        <p class="latest-date">{{ latest.data.date | readableDate }}</p>
-        <h3 class="latest-title"><a href="{{ latest.url }}">{{ latest.data.title }}</a></h3>
-        <p class="latest-summary">{{ latest.data.teaser or latest.data.summary }}</p>
-        <a href="{{ latest.url }}" class="latest-link">Read more &rarr;</a>
-      </div>
-      <a href="/insights/" class="btn btn-outline latest-view-all">VIEW ALL INSIGHTS</a>
-    </div>
-  </section>
-  {% endif %}
 
   <!-- Contact -->
   <section id="contact" class="section">
