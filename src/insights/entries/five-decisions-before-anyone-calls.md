@@ -1,15 +1,19 @@
 ---
-title: "Five Decisions Your Board Can Make Before Anyone Calls"
+title: Five Decisions Your Board Can Make Before Anyone Calls
 date: 2026-08-11
 order: 2
 type: project-note
-summary: "Preparedness usually gets described as a technical problem, which makes it something you buy, which makes it something you postpone until a proposal is already on the table. But the decisions that mattered most in DeForest cost nothing at all. Five a board can settle in a single afternoon, with nobody in the room but themselves."
+summary: Preparedness usually gets described as a technical problem, which makes
+  it something you buy, which makes it something you postpone until a proposal
+  is already on the table. But the decisions that mattered most in DeForest cost
+  nothing at all. Five a board can settle in a single afternoon, with nobody in
+  the room but themselves.
 description: ""
 image: ""
 pdf: ""
-readTime: "4 min read"
-ctaText: "Would working through these five with your board be useful?"
-ctaLink: "/#contact"
+readTime: 4 min read
+ctaText: Would working through these five with your board be useful?
+ctaLink: /#contact
 ---
 There's an objection in the paper I published on DeForest that I raise against myself and then answer only halfway. It's about money. A village of 12,000 cannot fund a readiness study on the chance that a developer someday calls, and the answers I offered (regional planning commissions, shared ordinance templates, county planning departments, the occasional planning grant) are all real and all slow.
 
@@ -50,7 +54,5 @@ None of those five is a study. They are decisions about how a community intends 
 I'd go further. The reason DeForest's four months felt inevitable is not that anyone there lacked judgment. It's that a series of decisions got made by circumstance, in sequence, because nobody had made them on purpose beforehand. That is a fixable problem, and it is fixable cheaply, and it is fixable now rather than during.
 
 The technical work is still real and it still arrives with the proposal, funded then, as it usually is. But a community that has settled these five is not starting from zero when that day comes. It is starting from a position, which is a materially different place to stand.
-
-If working through those five in a structured session would be useful to your board, that's what the [Siting Readiness Working Session](/#contact) is for.
 
 *Building the Links That Matter.*
