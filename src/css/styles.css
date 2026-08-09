@@ -659,6 +659,13 @@ a:hover {
   margin-bottom: 0.75rem;
 }
 
+.insight-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 1.75rem 0 2rem;
+}
+
 .insight-summary {
   font-size: 1.1rem;
   font-style: italic;

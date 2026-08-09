@@ -21,6 +21,10 @@
       <h1 class="section-heading insight-title">{{ title }}</h1>
       <p class="insight-date">{{ date | readableDate }}{% if readTime %} &middot; {{ readTime }}{% endif %}</p>
 
+      {% if image %}
+      <img src="{{ image }}" alt="{{ title }}" class="insight-image">
+      {% endif %}
+
       {% if summary %}
       <div class="insight-summary">{{ summary | paragraphs | safe }}</div>
       {% endif %}
