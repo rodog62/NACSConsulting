@@ -1,6 +1,7 @@
 ---
 title: I Thought They'd Be Glad to See the Stacks Come Down
 date: 2026-08-04
+order: 3
 type: project-note
 summary: For decades the Rock River Generating Station's smokestacks wore
   alternating bands of orange and white. Aviation striping, technically.
@@ -17,7 +18,7 @@ For decades the Rock River Generating Station burned coal on a site in the town 
 
 Nobody around there called it aviation striping. They called them the candy canes.
 
-The plant stopped generating in 2009 and was formally retired in 2012. A few years later I went to work on the project that would take it down and build a natural gas plant on the site next door, and I assumed, without ever really examining the assumption, that demolishing a retired coal plant's smokestacks was going to be the easy part of my job. Who mourns a smokestack?
+The plant stopped generating in 2009 and was formally retired in 2012. A few years later I went to work on the project that would take it down entirely and build a natural gas plant on the site next door, and I assumed, without ever really examining the assumption, that demolishing a retired coal plant's smokestacks was going to be the easy part of my job. Who mourns a smokestack?
 
 > I found out I was wrong about that early, and it taught me more than anything else on the project.
 
@@ -45,9 +46,9 @@ Neither of those was in the original plan. I'm not sure the company would have a
 
 That story tends to land as a nice anecdote about corporate goodwill, which is not what it is. It's an engineering change and a capital cost that a community talked its way into, a year before there was a hearing at which to raise it. That is a community getting something real out of an applicant. It just doesn't look that way, because it never had to become a fight.
 
-So if you're on the community side and you want the one thing I took from the other side of the table, it's this. A project team wants a project that moves, and a community that feels heard is a project that moves. That gives a prepared community far more room to ask for real value than it usually believes it has, and the room is widest early, before anyone is on the record and positions have hardened. Once everybody is testifying, the specifications are already drawn.
+So if you're on the community side and you want the one thing I took from the other side of the table, it's this. A project team wants a project that moves, and a community that feels truly heard can help move a project. That gives a prepared community far more room to ask for real value than it usually believes it has, and the room is widest early, before anyone is on the record and positions have hardened. Once everybody is testifying, the specifications are already drawn.
 
-The part I'd never have predicted came at the hearing itself. One member of that advisory group was a young mother who lived close in, and she came into the process a skeptic with real concerns. Over the months, as she learned the project and watched her group's feedback actually change things, her position moved. On the night of the public hearing she stood up and testified in support. What anyone would have likely penciled in as NIMBY opposition turned out to be the opposite, and her testimony carried because it was hers. It also never would have happened without months of proof points behind it.
+The part I'd never have predicted came at the hearing itself. One member of that advisory group was a young mother who lived close in, and she came into the process a skeptic with real concerns. Over the months, as she learned the project and watched her group's feedback actually change things, her position evolved. On the night of the public hearing she stood up and testified in support. What anyone would have likely penciled in as NIMBY opposition turned out to be the opposite, and her testimony carried because it was hers. It also never would have happened without months of proof points behind it.
 
 Riverside was a natural gas plant, and I know many of the questions in Wisconsin right now are about data centers. What I took from it isn't about power plants, and it doesn't carry over because the facilities are alike. They aren't. It carries over because the moment is the same one. A large project arrives in a place that didn't ask for it, everyone forms a view faster than they get information, and the whole thing turns on what got built between the people involved before the record opened.
 
