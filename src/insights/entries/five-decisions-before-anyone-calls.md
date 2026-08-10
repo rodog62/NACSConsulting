@@ -17,11 +17,11 @@ ctaLink: /#contact
 ---
 There's an objection in the paper I published on DeForest that I raise against myself and then answer only halfway. It's about money. A village of 12,000 cannot fund a readiness study on the chance that a developer someday calls, and the answers I offered (regional planning commissions, shared ordinance templates, county planning departments, the occasional planning grant) are all real and all slow.
 
-I want to come back to it, because what I gave there was the smaller half of the truth.
+I want to come back to it, because what I gave there was only part of the story.
 
 > Most of what makes a community ready has nothing to do with what it can afford to study.
 
-We have gotten into the habit of describing preparedness as a technical problem. Zoning provisions, capacity analysis, fiscal modeling, interconnection timelines. Those things matter enormously and, to be clear, I am not equipped to do any of them. But notice what happens when preparedness gets defined that way: it becomes something you buy, which means it becomes something you postpone, which means the first time anybody looks at it is the week a proposal arrives and the clock has already started.
+We have gotten into the habit of describing preparedness as a technical problem. Zoning provisions, capacity analysis, fiscal modeling, interconnection timelines. Those things matter enormously (and, to be clear, I am not equipped to do any of them). But notice what happens when preparedness gets defined that way: it becomes something you buy, which means it becomes something you postpone, which means the first time anybody looks at it is the week a proposal arrives and the clock has already started.
 
 That framing is backwards, and DeForest is the evidence. Look at the four months and ask how much of the damage a missing engineering study actually caused. Very little. The capacity constraint that surfaced in a state determination from January had been true since the first day of the process. Nothing about the infrastructure changed over those months. What changed was who knew, and when. That was a real cost, and it wasn't the one that mattered most.
 
