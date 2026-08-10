@@ -43,6 +43,6 @@ keyFindings:
     say the costs of large data centers outweigh the benefits, up from a slim
     majority in October 2025, with majorities in every party, age group, and
     income level landing on the costs side.
-ctaText: Weighing a data center proposal in your community?
+ctaText: Weighing a large infrastructure proposal in your community?
 ctaLink: /#contact
 ---
