@@ -11,7 +11,7 @@ summary: >-
   for it.
 
 
-  This paper walks through what happened, not to re-litigate DeForest's decision, but to name the five structural gaps behind it: no data center policy, no transparency protocol, an overwhelmed staff, an infrastructure assessment that arrived too late, and no organized channel for resident input. Together they made a four-month sprint feel inevitable when it wasn't.
+  This paper walks through what happened, not to re-litigate DeForest's decision, but to name the five structural gaps behind it: no data center policy before the proposal arrived, no transparency protocol, an overwhelmed staff, an infrastructure assessment that arrived too late, and no organized channel for resident input. Together they made a four-month sprint feel inevitable when it wasn't.
 
 
   DeForest is not an outlier. The same pattern has already played out in Menomonie, Greenleaf, and Caledonia, and no statewide framework is coming before 2027. At least ten Wisconsin communities have answered by hitting pause.
