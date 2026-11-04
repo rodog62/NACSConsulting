@@ -101,10 +101,35 @@
     "headshot": "/assets/images/headshot.jpg",
     "paragraphs": [
       "I spent the first 15 years of my career in broadcast news — as a photojournalist, newscast producer, and eventually running television newsrooms. Those years taught me something I’ve carried into every room since: how to listen and discern, to find the story that actually matters, and how to tell it in a way people can hear on the first pass.",
-      "The next 15 plus took me into the corporate world, spanning communications, customer experience, and economic development. But some of the most meaningful work happened outside the office: on boards, in community organizations, and in volunteer roles where real relationships are built between an organization and its community.",
-      "This fall, I gave a keynote in the Wisconsin Economic Development Association’s Demystifying Development series, joined a Wisconsin Public Utility Institute panel on who pays for grid upgrades, and was quoted in the Municipal Electric Utilities of Wisconsin’s Live Lines cover story."
+      "The next 15 plus took me into the corporate world, spanning communications, customer experience, and economic development. But some of the most meaningful work happened outside the office: on boards, in community organizations, and in volunteer roles where real relationships are built between an organization and its community."
     ],
-    "quote": "“That combination — both sides of the table, for more than three decades — is what I bring to Nasc Consulting.”"
+    "quote": "“That combination — both sides of the table, for more than three decades — is what I bring to Nasc Consulting.”",
+    "speaking": [
+      {
+        "organization": "Wisconsin Economic Development Association",
+        "event": "Demystifying Development webinar series",
+        "title": "When Opposition Is the Default: Building a Development Playbook Before You Need One",
+        "role": "Keynote",
+        "date": "October 6, 2026",
+        "link": ""
+      },
+      {
+        "organization": "Wisconsin Public Utility Institute",
+        "event": "Grid Under Pressure: Forward Look",
+        "title": "Cost-sharing for infrastructure upgrades",
+        "role": "Panelist",
+        "date": "November 4, 2026",
+        "link": ""
+      },
+      {
+        "organization": "Municipal Electric Utilities of Wisconsin",
+        "event": "Live Lines cover story",
+        "title": "Large-project readiness for municipal utilities",
+        "role": "Quoted",
+        "date": "September 2026",
+        "link": ""
+      }
+    ]
   },
   "hero": {
     "tagline": "BUILDING THE LINKS THAT MATTER",

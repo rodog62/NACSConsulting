@@ -36,7 +36,7 @@ After logging in, you'll see a screen called **"Site Content"**.
 | **Analytics** | Your Google Analytics Measurement ID (see "Turning On Analytics" below) |
 | **SEO & Meta** | Page title and description (what shows up in Google search results) |
 | **Hero Section** | The big tagline, subtitle, and button text at the top of the site |
-| **About Section** | Your bio paragraphs, headshot photo, and personal quote |
+| **About Section** | Your bio paragraphs, headshot photo, personal quote, and Speaking & Media list |
 | **Services Section** | Your list of consulting services and their descriptions |
 | **Client Focus Areas** | The industries/areas you serve |
 | **Community & Civic Leadership** | Your civic area cards — each with a title and description |
@@ -54,7 +54,7 @@ Here's how the sections appear on the website so you know what you're editing:
 
 1. **Header** — Navigation bar at the top with links: About, Services, Community, Why Nasc, Insights, Contact
 2. **Hero** — The big opening section with the logo, "Nasc Consulting" title, tagline, subtitle, and "LET'S TALK" button
-3. **About** — Your headshot photo, bio paragraphs, and the quote about your experience
+3. **About** — Your headshot photo, bio paragraphs, the quote about your experience, then a Speaking & Media list under that quote
 4. **Services** — "WHAT WE DO" — Six cards describing your consulting services (Stakeholder & Community Relations, Strategic Communications, Business & Economic Development, Regulatory & Public Policy, Organizational Strategy & Alignment, Municipal & Government Services)
 5. **Client Focus Areas** — "WHO WE SERVE" — Four areas describing who you work with (Private Sector, Nonprofits & Associations, Municipalities & Local Government, State & Federal Agencies)
 6. **Community & Civic Leadership** — "Rooted in Wisconsin" — Your quote about community involvement, followed by six civic area cards (Business Development, Youth Athletics, Tourism & Hospitality, Community Relations, Education, Economic Development)
@@ -84,6 +84,21 @@ Several sections use **cards** — each card has a **Title** and a **Description
 3. Edit the **Title** and/or **Description** fields
 4. To add a new card, click **"Add"** at the bottom of the list
 5. To remove a card, click the **"X"** button next to it
+
+### Speaking & Media (inside About)
+
+Under **About Section**, **Speaking & Media** is a list of talks, panels, and press mentions. It shows on the homepage just below your About quote. It is not a separate item in the top navigation.
+
+Each entry has:
+
+- **Organization** — who hosted it or published it
+- **Event** — the series, conference, or story
+- **Title** — the talk title or topic
+- **Role** — for example Keynote, Panelist, or Quoted
+- **Date** — type it the way it should read, such as `October 6, 2026` or `September 2026`
+- **Link** — optional. Paste a full URL (including `https://`) to link the title. Leave it blank and the entry still shows, just without a link.
+
+Add, remove, and reorder entries the same way as the cards above.
 
 ---
 
