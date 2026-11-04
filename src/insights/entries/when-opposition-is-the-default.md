@@ -22,6 +22,8 @@ teaser: "Solar, wind, housing, data centers: across Wisconsin, organized
 description: Opposition is now the default for contested development in
   Wisconsin. Five decisions a community can make before a proposal lands, and
   why they pay.
+pdf: https://drive.google.com/drive/u/1/folders/1foFK23yVTci66R_jKgbu1oEi3jxXfXTM
+readTime: 6 min read
 ctaText: Facing a contested proposal, or want to get ahead of the next one?
 ---
 In March, the Town of Rome in Adams County did everything civic life tells a community to do. Residents gathered more than 2,000 signatures against a 200-megawatt solar project and filed more than 200 public comments. On March 5, 2026, the Public Service Commission approved the project unanimously.
