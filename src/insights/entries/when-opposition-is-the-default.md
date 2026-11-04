@@ -22,7 +22,7 @@ teaser: "Solar, wind, housing, data centers: across Wisconsin, organized
 description: Opposition is now the default for contested development in
   Wisconsin. Five decisions a community can make before a proposal lands, and
   why they pay.
-pdf: ""
+pdf: /assets/documents/five-decisions-checklist.pdf
 readTime: 6 min read
 ctaText: Facing a contested proposal, or want to get ahead of the next one?
 ---
