@@ -312,6 +312,74 @@ a:hover {
   line-height: 1.8;
 }
 
+.speaking {
+  margin-top: 1rem;
+  padding-top: 1.75rem;
+  border-top: 1px solid var(--color-border);
+}
+
+#about .speaking-label {
+  margin-bottom: 1.25rem;
+}
+
+.speaking-list {
+  list-style: none;
+}
+
+.speaking-item + .speaking-item {
+  margin-top: 1.15rem;
+  padding-top: 1.15rem;
+  border-top: 1px solid var(--color-border);
+}
+
+.speaking-meta {
+  font-size: 0.8rem;
+  letter-spacing: 0.3px;
+  line-height: 1.5;
+}
+
+.speaking-role {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--color-primary);
+}
+
+.speaking-title {
+  font-size: 1rem;
+  color: var(--color-dark);
+  line-height: 1.5;
+  overflow-wrap: break-word;
+}
+
+.speaking-title a {
+  color: var(--color-dark);
+}
+
+.speaking-title a:hover {
+  color: var(--color-primary);
+}
+
+.speaking-detail {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  overflow-wrap: break-word;
+}
+
+.speaking-org + .speaking-event::before {
+  content: " · ";
+}
+
+#about .speaking-meta,
+#about .speaking-title {
+  margin-bottom: 0.2rem;
+}
+
+#about .speaking-detail {
+  margin-bottom: 0;
+}
+
 /* ============================================
    Services Cards
    ============================================ */
@@ -935,6 +1003,15 @@ a:hover {
   .about-photo {
     width: 200px;
     height: 200px;
+  }
+
+  .speaking-org,
+  .speaking-event {
+    display: block;
+  }
+
+  .speaking-org + .speaking-event::before {
+    content: none;
   }
 
   .latest-card,

@@ -68,6 +68,37 @@
       <blockquote class="accent-quote">
         {{ site.about.quote }}
       </blockquote>
+
+      {% if site.about.speaking and site.about.speaking.length %}
+      <div class="speaking">
+        <h3 class="section-label speaking-label">Speaking &amp; Media</h3>
+        <ul class="speaking-list">
+          {% for item in site.about.speaking %}
+          {% set speakingLink = (item.link or "") | trim %}
+          <li class="speaking-item">
+            {% if item.role or item.date %}
+            <p class="speaking-meta">
+              {% if item.role %}<span class="speaking-role">{{ item.role }}</span>{% endif %}{% if item.role and item.date %} · {% endif %}{% if item.date %}{{ item.date }}{% endif %}
+            </p>
+            {% endif %}
+            {% if item.title %}
+            <p class="speaking-title">
+              {% if speakingLink %}<a href="{{ speakingLink }}">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}
+            </p>
+            {% elif speakingLink %}
+            <p class="speaking-title"><a href="{{ speakingLink }}">{{ item.event or item.organization }}</a></p>
+            {% endif %}
+            {% if item.organization or item.event %}
+            <p class="speaking-detail">
+              {% if item.organization %}<span class="speaking-org">{{ item.organization }}</span>{% endif %}
+              {% if item.event %}<span class="speaking-event">{{ item.event }}</span>{% endif %}
+            </p>
+            {% endif %}
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endif %}
     </div>
   </section>
 

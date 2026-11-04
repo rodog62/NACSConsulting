@@ -92,6 +92,19 @@ collections:
                 widget: "list"
                 field: { label: "Paragraph", name: "paragraph", widget: "text" }
               - { label: "Quote", name: "quote", widget: "text" }
+              - label: "Speaking & Media"
+                name: "speaking"
+                widget: "list"
+                required: false
+                summary: "{{fields.role}} — {{fields.title}}"
+                hint: "Shown on the homepage under the About quote. Add a row for each appearance. Leave Link blank and the entry still shows, just without a link."
+                fields:
+                  - { label: "Organization", name: "organization", widget: "string" }
+                  - { label: "Event", name: "event", widget: "string" }
+                  - { label: "Title", name: "title", widget: "string", hint: "Talk title or topic." }
+                  - { label: "Role", name: "role", widget: "string", hint: "For example: Keynote, Panelist, or Quoted." }
+                  - { label: "Date", name: "date", widget: "string", hint: "Write it the way it should appear, such as October 6, 2026 or September 2026." }
+                  - { label: "Link", name: "link", widget: "string", required: false, hint: "Optional. Full URL, including https://. Leave blank to show the entry with no link." }
 
           # ── Services Section ──
           - label: "Services Section"
